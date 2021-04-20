@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<skin version="1.0" load="1" type="string" language="EN">
+	<String>
+		<String id="EDIT_MENU">Edit Menu</String>
+		<String id="ALL_SELECT">Select All</String>
+		<String id="SAVE_AS_BTN">Save as...</String>
+		<String id="ADD_TO_FACE">Add to emoticons</String>
+		<String id="EDIT_SCRAWL">Edit &amp; Scrawl</String>
+		<String id="OPEN_DIR_CONTAIN">Open the folder</String>
+		<String id="SELECT_ALL">Select All</String>
+		<String id="CUT">Cut</String>
+		<String id="COPY">Copy</String>
+		<String id="PASTE">Paste</String>
+		<String id="DOUBLE_CLICK_SEE_PIC">Double click to see original image</String>
+		<String id="LIMIT_INPUT">Invalid characters input, please input&#160;</String>
+		<String id="LIMIT_NUMBER">numbers</String>
+		<String id="LIMIT_LETTER">letters</String>
+		<String id="LIMIT_CHAR">Chinese characters</String>
+		<String id="LIMIT_BLANK">spaces</String>
+		<String id="LIMIT_NOINPUT">nothing</String>
+		<String id="SEARCHKEYNOTEMPTY">Search keywords can not be empty</String>
+	</String>
+</skin>
+
+

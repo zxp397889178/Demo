@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="UnicodeDebug|Win32">
+      <Configuration>UnicodeDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="UnicodeRelease|Win32">
+      <Configuration>UnicodeRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{58F40300-11CA-45AD-B663-66437785066E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MyDemo</RootNamespace>
+    <ProjectName>Demo</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'">
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Config.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'">
+    <Import Project="Config.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(BinDir)\$(Configuration)\</OutDir>
+    <IntDir>$(TempDir)\$(TargetName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDeug|Win32'">
+    <OutDir>$(BinDir)\$(Configuration)\</OutDir>
+    <IntDir>$(TempDir)\$(TargetName)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_ud</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'">
+    <OutDir>$(BinDir)\$(Configuration)\</OutDir>
+    <IntDir>$(TempDir)\$(TargetName)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_ud</TargetName>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;RAPIDJSON_HAS_STDSTRING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\rapidjson;$(SolutionDir)thirdparty\rapidjson\include;$(SolutionDir)SDK\Utils\include;$(SolutionDir)SDK\EventBus\include;$(SolutionDir)thirdparty\ndhttp\include;$(SolutionDir)thirdparty\ndhttp;$(SolutionDir)thirdparty\sqlite\include;$(SolutionDir)thirdparty\ucsdk\include;$(SolutionDir)thirdparty\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)\lib;$(SolutionDir)lib;$(SolutionDir)third-party\libqrencode\lib\release;$(SolutionDir)third-party\7z\lib\release;$(SolutionDir)third-party\boost\lib\release;$(SolutionDir)third-party;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+    <CustomBuildStep>
+      <Command>xcopy "$(ProjectDir)Skins" "$(BinDir)\$(Configuration)\Skins\" /E /Y /D
+xcopy "$(SolutionDir)\DirectUI\framework" "$(BinDir)\$(Configuration)\framework\" /E /Y /D
+xcopy "$(SolutionDir)DirectUI\tool" "$(BinDir)\$(Configuration)\" /E /Y /D
+xcopy "$(ProjectDir)bin_release" "$(BinDir)\$(Configuration)" /E /Y /D
+
+
+
+cd   "$(BinDir)\$(Configuration)\"
+call  "skin_complie.bat"</Command>
+      <Outputs>copy skins</Outputs>
+    </CustomBuildStep>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDeug|Win32'">
+    <ClCompile>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'">
+    <ClCompile>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;RAPIDJSON_HAS_STDSTRING;DEVELOP_VERSION;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;BOOST_NO_CXX11_TEMPLATE_ALIASES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>/Zm200 %(AdditionalOptions)</AdditionalOptions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\rapidjson;$(SolutionDir)thirdparty\rapidjson\include;$(SolutionDir)SDK\Utils\include;$(SolutionDir)SDK\EventBus\include;$(SolutionDir)thirdparty\ndhttp\include;$(SolutionDir)thirdparty\ndhttp;$(SolutionDir)thirdparty\sqlite\include;$(SolutionDir)thirdparty\ucsdk\include;$(SolutionDir)thirdparty\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(ProjectDir)lib;$(SolutionDir)Lib;$(SolutionDir)third-party\boost\lib\debug;$(SolutionDir)third-party\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <CustomBuildStep>
+      <Command>xcopy "$(ProjectDir)Skins" "$(BinDir)\$(Configuration)\Skins\" /E /Y /D
+xcopy "$(SolutionDir)\DirectUI\framework" "$(BinDir)\$(Configuration)\framework\" /E /Y /D
+xcopy "$(SolutionDir)DirectUI\tool" "$(BinDir)\$(Configuration)\" /E /Y /D
+xcopy "$(ProjectDir)bin_ud" "$(BinDir)\$(Configuration)" /E /Y /D
+
+
+cd   "$(BinDir)\$(Configuration)\"
+call  "skin_complie.bat"</Command>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>copy skin</Outputs>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\ThreadPool.h" />
+    <ClInclude Include="Biz\UserCenterBiz.h" />
+    <ClInclude Include="Biz\UserLogin.h" />
+    <ClInclude Include="Biz\UserLoginBiz.h" />
+    <ClInclude Include="Event\LoginEvent.hpp" />
+    <ClInclude Include="Event\UserCenterEventModel.hpp" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Util\Common.h" />
+    <ClInclude Include="Util\Crypto_Wrapper.h" />
+    <ClInclude Include="Util\SqliteManager.h" />
+    <ClInclude Include="View\MainViewWnd.h" />
+    <ClInclude Include="View\MainWindow.h" />
+    <ClInclude Include="View\MainWnd.h" />
+    <ClInclude Include="View\ShowText\ShowTextWnd.h" />
+    <ClInclude Include="View\UIEditEx.h" />
+    <ClInclude Include="View\UIEditLayout.h" />
+    <ClInclude Include="View\UserCenter\LoginWnd.h" />
+    <ClInclude Include="View\UserCenter\UcPullDownWnd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Biz\UserCenterBiz.cpp" />
+    <ClCompile Include="Biz\UserLogin.cpp" />
+    <ClCompile Include="Biz\UserLoginBiz.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Util\Common.cpp" />
+    <ClCompile Include="Util\Crypto_Wrapper.cpp" />
+    <ClCompile Include="Util\SqliteManager.cpp" />
+    <ClCompile Include="View\MainViewWnd.cpp" />
+    <ClCompile Include="View\MainWindow.cpp" />
+    <ClCompile Include="View\MainWnd.cpp" />
+    <ClCompile Include="View\ShowText\ShowTextWnd.cpp" />
+    <ClCompile Include="View\UIEditEx.cpp" />
+    <ClCompile Include="View\UIEditLayout.cpp" />
+    <ClCompile Include="View\UserCenter\LoginWnd.cpp" />
+    <ClCompile Include="View\UserCenter\UcPullDownWnd.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="101OfflineResImport.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="101OfflineResImport.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Skins\layout\LoginPanel.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="Skins\layout\MainViewWnd.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="Skins\layout\PullDownWnd.xml" />
+    <Xml Include="Skins\layout\ShowTextWnd.xml" />
+    <Xml Include="Skins\layout\UserInfoPanel.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="Skins\res\res.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

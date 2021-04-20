@@ -1,0 +1,24 @@
+﻿生成启动时间为 2021/4/19 18:57:50。
+     1>项目“E:\test\Demo\Demo\EventBus\EventBus.vcxproj”在节点 5 上(Rebuild 个目标)。
+     1>ClCompile:
+         H:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\test\Demo\Demo\EventBus\ /IE:\test\Demo\Demo\EventBus\Include\EventBus\ /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D EVENTBUS_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\EventBus_ud.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         H:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\test\Demo\Demo\EventBus\ /IE:\test\Demo\Demo\EventBus\Include\EventBus\ /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D EVENTBUS_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\EventBus_ud.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp Source\EventBusImpl.cpp Source\EventBus.cpp Source\WorkPool.cpp
+         WorkPool.cpp
+         EventBus.cpp
+         EventBusImpl.cpp
+         dllmain.cpp
+         正在生成代码...
+       Link:
+         H:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../Bin\Debug\EventBus_ud.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../../Bin\Debug\EventBus_ud.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../Bin\Debug\EventBus_ud.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\EventBusImpl.obj
+         Debug\EventBus.obj
+         Debug\WorkPool.obj
+         Debug\stdafx.obj
+            正在创建库 ../../Bin\Debug\EventBus_ud.lib 和对象 ../../Bin\Debug\EventBus_ud.exp
+         EventBus.vcxproj -> E:\test\Demo\Demo\EventBus\../../Bin\Debug\EventBus_ud.dll
+     1>已完成生成项目“E:\test\Demo\Demo\EventBus\EventBus.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.02

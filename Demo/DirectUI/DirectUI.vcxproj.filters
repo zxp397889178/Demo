@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{4213af4b-f979-405c-a8f9-f6230a9bc4d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{f0e4827a-1956-4ae9-8054-42eb39760f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\activex">
+      <UniqueIdentifier>{0e5514f3-c011-403d-8840-a2427994906f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\rdb">
+      <UniqueIdentifier>{5040f39d-124b-4464-9528-e7153cafa9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\rapidxml">
+      <UniqueIdentifier>{33ade558-f7d4-48d9-9bae-537e2f3ab423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{0f386cab-b301-4610-bd41-68e72f0f92fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{e4cf52fc-edd6-4637-8609-fefb324da9ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{b52b0887-acfa-4cb7-8018-8b297126a144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{f3aa0b68-8f02-4a21-9666-eed393019975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Control">
+      <UniqueIdentifier>{b0fbd55c-0540-4ded-96e8-66da1e925fc6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\DirectUI.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\macros.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResObj.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TemplateObj.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AlphaBlendEx.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DataObjectImpl.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DPI.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DragDropImpl.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SSE.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TextHostImpl.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UICaret.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIDelegate.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIDockTool.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UITimer.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\activex\ax_host.cpp">
+      <Filter>Utility\activex</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RdbParser.cpp">
+      <Filter>Utility\rdb</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ColorObj.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CursorObj.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FontObj.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImageLib.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImageObj.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderObj.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StyleObj.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Action.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ActionManager.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UITransition.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ViewAnimation.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WindowAnimation.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DirectUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EngineObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIWindow.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WindowBase.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIView.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIAnimation.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIButton.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UICheckBox.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIComboBox.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIComposite.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIContainer.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIControl.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIControlWnd.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIEdit.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIEdit_AR.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIFlash.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIHtmlLabel.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UILabel.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UILayout.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIList.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIMenu.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIMessageBox.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIProgressBar.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIRadio.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIRichEdit.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIScrollBar.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UISlider.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UISplitter.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UITab.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIToolTip.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UITree.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIWebbrowser.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Log\easylogging++.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UISliderV2.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\macros.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResObj.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TemplateObj.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AlphaBlendEx.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataObjectImpl.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DPI.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DragDropImpl.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SSE.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TextHostImpl.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UICaret.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIDelegate.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIDockTool.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UITimer.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\activex\activex_inner.h">
+      <Filter>Utility\activex</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\activex\ax_host.h">
+      <Filter>Utility\activex</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\activex\scoped_comptr.h">
+      <Filter>Utility\activex</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\activex\scoped_ptr.h">
+      <Filter>Utility\activex</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RdbDef.h">
+      <Filter>Utility\rdb</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RdbParser.h">
+      <Filter>Utility\rdb</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\rapidxml\rapidxml.hpp">
+      <Filter>Utility\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\rapidxml\rapidxml_utils.hpp">
+      <Filter>Utility\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ColorObj.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CursorObj.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FontObj.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImageLib.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImageObj.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RenderObj.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StyleObj.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Action.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ActionManager.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UITransition.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ViewAnimation.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WindowAnimation.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DirectUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EngineObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InterDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIWindow.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WindowBase.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIView.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIAnimation.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIButton.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UICheckBox.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIComboBox.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIComposite.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIContainer.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIControl.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIControlWnd.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIEdit.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIEdit_AR.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIFlash.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIHtmlLabel.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UILabel.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UILayout.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIList.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIMenu.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIMessageBox.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIProgressBar.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIRadio.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIRichEdit.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIScrollBar.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UISlider.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UISplitter.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UITab.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIToolTip.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UITree.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIWebbrowser.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VersionHelpers.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Log\easylogging++.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UISliderV2.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gesture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CheckImageHeader.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\activex\flash10t.tlh">
+      <Filter>Utility\activex</Filter>
+    </None>
+    <None Include="Source\activex\flash10t.tli">
+      <Filter>Utility\activex</Filter>
+    </None>
+    <None Include="Source\DirectUI.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

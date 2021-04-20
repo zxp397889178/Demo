@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<skin version="1.0" load="1" type="curve">
+	<Curve>
+
+		<curve id="curve.liner" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+		<curve id="curve.quad.in" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.550000" sp="0.085000"/>
+			<controlpoint  tp="0.680000" sp="0.530000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+		<curve id="curve.quad.out" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.250000" sp="0.460000"/>
+			<controlpoint  tp="0.450000" sp="0.940000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+		<curve id="curve.quad.inout" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.455000" sp="0.030000"/>
+			<controlpoint  tp="0.515000" sp="0.955000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+		<curve id="curve.cubic.in" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.550000" sp="0.055000"/>
+			<controlpoint  tp="0.675000" sp="0.190000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+		<curve id="curve.cubic.out" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.215000" sp="0.610000"/>
+			<controlpoint  tp="0.355000" sp="1.000000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+		<curve id="curve.cubic.inout" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.645000" sp="0.045000"/>
+			<controlpoint  tp="0.355000" sp="1.000000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+
+
+		<curve id="curve.quart.in" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.895000" sp="0.030000"/>
+			<controlpoint  tp="0.685000" sp="0.220000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+		<curve id="curve.quart.out" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.165000" sp="0.840000"/>
+			<controlpoint  tp="0.440000" sp="1.000000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+		<curve id="curve.quart.inout" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.770000" sp="0.000000"/>
+			<controlpoint  tp="0.175000" sp="1.000000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+
+		<curve id="curve.quint.in" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.755000" sp="0.050000"/>
+			<controlpoint  tp="0.855000" sp="0.060000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+		<curve id="curve.quint.out" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.230000" sp="1.000000"/>
+			<controlpoint  tp="0.320000" sp="1.000000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+		<curve id="curve.quint.inout" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.860000" sp="0.000000"/>
+			<controlpoint  tp="0.070000" sp="1.000000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+
+		<curve id="curve.sine.in" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.470000" sp="0.000000"/>
+			<controlpoint  tp="0.745000" sp="0.715000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+		<curve id="curve.sine.out" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.390000" sp="0.575000"/>
+			<controlpoint  tp="0.565000" sp="1.000000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+		<curve id="curve.sine.inout" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.445000" sp="0.050000"/>
+			<controlpoint  tp="0.550000" sp="0.950000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+
+		<curve id="curve.expo.in" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.950000" sp="0.050000"/>
+			<controlpoint  tp="0.795000" sp="0.035000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+		<curve id="curve.expo.out" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.190000" sp="1.000000"/>
+			<controlpoint  tp="0.220000" sp="1.000000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+		<curve id="curve.expo.inout" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="1.000000" sp="0.000000"/>
+			<controlpoint  tp="0.550000" sp="1.000000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+		<curve id="curve.circ.in" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.600000" sp="0.040000"/>
+			<controlpoint  tp="0.980000" sp="0.335000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+		<curve id="curve.circ.out" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.075000" sp="0.820000"/>
+			<controlpoint  tp="0.165000" sp="1.000000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+		<curve id="curve.circ.inout" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.785000" sp="0.135000"/>
+			<controlpoint  tp="0.150000" sp="0.860000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+
+		<curve id="curve.back.in" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.600000" sp="-0.280000"/>
+			<controlpoint  tp="0.735000" sp="0.045000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+		<curve id="curve.back.out" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.175000" sp="0.885000"/>
+			<controlpoint  tp="0.320000" sp="1.275000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+		<curve id="curve.back.inout" type="bezier">
+			<controlpoint  tp="0.000000" sp="0.000000"/>
+			<controlpoint  tp="0.680000" sp="-0.550000"/>
+			<controlpoint  tp="0.265000" sp="1.550000"/>
+			<controlpoint  tp="1.000000" sp="1.000000"/>
+		</curve>
+
+	</Curve>
+</skin>
+
+

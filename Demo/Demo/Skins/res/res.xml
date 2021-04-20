@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<skin version="1.0" load="1">
+  <Image>
+    <!--Main Start-->
+    <Image id="ai_logo"                   path="tool\AiAssistant.ico"/>
+    <Image id ="ai_too_bk"                path="tool\bk.png"/>
+    <Image id ="ai_normal"                path="tool\ai_normal.png"/>
+    <Image id ="ai_down"                  path="tool\ai_down.png"/>
+    <Image id ="speech_normal"            path="tool\speech_normal.png"/>
+    <Image id ="speech_down"              path="tool\speech_down.png"/>
+    <Image id ="split_line"               path="tool\split_line.png"/>
+    <Image id ="update_normal"            path="tool\update_noraml.png"/>
+    <Image id="bk_window_title"           path="|S20,20,20,20|tool\bk_title.png"/>
+    <Image id="bk_window_main"            path="|S10,10,10,10|tool\bk_window_main.png"/>
+    <Image id="frame_b_bk_close"          path="|R4|tool\btn_close.png"/>
+    <Image id="dbank_bk_Edit_rename"      path="|S5,5,5,5|tool\bk_Edit_rename.png"/>
+    <Image id="bk_btn_red"                path="|R4|S15,0,15,0|tool\bk_button_red.png"/>
+    <!--Main End-->
+
+    <!-- =========== User Center Start ===========-->
+    <Image id="bk_publicity"          path="UserCenter\bk_publicity.jpg"/>
+    <Image id="bk_main"               path="|S5,5,5,5|UserCenter\bk_main.png"/>
+    <Image id="bk_uc_bottom"          path="UserCenter\bk_uc_bottom.png"/>
+    <Image id="bk_user_center"        path="|S5,5,20,5|UserCenter\bk_user_center.png"/>
+    <Image id="bk_user_detail"        path="|S5,5,10,5|UserCenter\bk_user_detail.png"/>
+    <Image id="btn_goback"            path="|C3|UserCenter\btn_goback.png"/>
+    <Image id="btn_goback"            path="|C3|UserCenter\btn_goback.png"/>
+    <Image id="btn_pull_down"         path="|C3|UserCenter\btn_pull_down.png"/>
+    <Image id="btn_uc_biz"            path="|R4|UserCenter\btn_uc_biz.png"/>
+    <Image id="btn_grain"             path="|R4|S40,10,40,10|UserCenter\btn_grain.png"/>
+    <Image id="icon_about"            path="|C4|UserCenter\icon_about.png"/>
+    <Image id="icon_chk_update"       path="|C4|UserCenter\icon_chk_update.png"/>
+    <Image id="icon_contact_us"       path="|C4|UserCenter\icon_contact_us.png"/>
+    <Image id="icon_feedback"         path="|C4|UserCenter\icon_feedback.png"/>
+    <Image id="icon_setting"          path="|C4|UserCenter\icon_setting.png"/>
+    <Image id="icon_update_log"       path="|C4|UserCenter\icon_update_log.png"/>
+    <Image id="icon_default_qrcode"   path="UserCenter\icon_default_qrcode.png"/>
+    <Image id="icon_user"             path="UserCenter\icon_user.png"/>
+    <Image id="icon_security"         path="UserCenter\icon_security.png"/>
+    <Image id="icon_password"         path="UserCenter\icon_password.png"/>
+    <Image id="icon_country"          path="UserCenter\icon_country.png"/>
+    <Image id="icon_pd_bg"            path="|S14,14,14,14|UserCenter\icon_pd_background.png"/>
+    <Image id="icon_parting_line"     path="|S3,3,3,3|UserCenter\icon_parting_line.png"/>
+    <Image id="icon_parting_line_b"   path="|S3,3,3,3|UserCenter\icon_parting_line_b.png"/>
+    <Image id="icon_list_item"        path="|C2|S2,2,2,2|UserCenter\icon_list_item.png"/>
+    <Image id="icon_list_item_b"      path="|C2|S2,2,2,2|UserCenter\icon_list_item_b.png"/>
+    <Image id="icon_underline"        path="UserCenter\icon_underline.png"/>
+    <Image id="icon_select_bg"        path="|S10,10,10,10|UserCenter\icon_select_background.png"/>
+    <Image id="btn_del"               path="|C3|UserCenter\btn_del.png"/>
+    <Image id="btn_calendar"          path="|C3|UserCenter\icon_calendar.png"/>
+    <Image id="btn_help"              path="|C3|UserCenter\icon_help.png"/>
+    <Image id="btn_help_bk"           path="|R4|S16,13,16,13|UserCenter\btn_help_bk.png"/>
+    <Image id="Ani_internation_loading" path="|C26|UserCenter\internation_loading.png" />
+    <Image id="bk_CompleteResetPwd"   path="UserCenter\bk_CompleteResetPwd.png" />
+    <Image id="btn_points"            path="|C3|UserCenter\btn_points.png"/>
+    <Image id="btn_task"              path="|C3|UserCenter\btn_task.png"/>
+
+    <!--Login Panel Start-->
+    <Image id="icon_head_bk"          path="UserCenter\icon_head_bk.png"/>
+    <Image id="mask_head"             path="UserCenter\mask_head.png"/>
+    <Image id="icon_head_default"     path="UserCenter\icon_head_default.png"/>
+    <Image id="icon_head_loading"     path="|C12|UserCenter\icon_head_loading.png"/>
+    <Image id="icon_weibo"            path="|C3|UserCenter\icon_weibo.png"/>
+    <Image id="icon_qq"               path="|C3|UserCenter\icon_qq.png"/>
+    <Image id="icon_weixin"           path="|C3|UserCenter\icon_weixin.png"/>
+    <Image id="icon_gzeic"            path="|C3|UserCenter\icon_gzeic.png"/>
+    <Image id="icon_facebook"         path="|C3|UserCenter\icon_facebook.png"/>
+    <Image id="icon_google"           path="|C3|UserCenter\icon_google.png"/>
+    <Image id="icon_more"             path="|C3|UserCenter\icon_more.png"/>
+    <Image id="btn_hide_pwd"          path="|C3|UserCenter\btn_hide_pwd.png"/>
+    <Image id="btn_show_pwd"          path="|C3|UserCenter\btn_show_pwd.png"/>
+    <!--Login Panel  End-->
+
+    <!--User Panel-->
+    <Image id="icon_modify_mask"      path="UserCenter\icon_modify_mask.png"/>
+    <Image id="icon_camera"           path="UserCenter\icon_camera.png"/>
+    <Image id="btn_person_info"       path="|R4|UserCenter\btn_person_info.png"/>
+    <Image id="btn_school_edit"       path="|C4|UserCenter\btn_school_edit.png"/>
+    <Image id="btn_school_pull_down"         path="|C3|UserCenter\btn_school_pull_down.png"/>
+    <Image id="btn_school_pull_up"           path="|C3|UserCenter\btn_school_pull_up.png"/>
+    <Image id="school_search_bkedit"                 path="|S10,10,10,10|UserCenter\school_search_bkedit.png"/>
+    <Image id="school_search_bkedit_select"          path="|S10,10,10,10|UserCenter\school_search_bkedit_select.png"/>
+    <Image id="school_bkregion"                      path="|R4|UserCenter\school_bkregion.png"/>
+    <Image id="school_underline"             path="|S1,0,1,1|UserCenter\school_line.png"/>
+    <Image id="school_bk_Resless"           path="UserCenter\school_less.png"/>
+    <Image id="school_bk_network_error"           path="UserCenter\school_network_error.png"/>
+    <Image id="school_toast_succeed"        path="UserCenter\toast_succeed.png"/>
+    <Image id="search_list_item"            path="|C2|S2,2,2,2|UserCenter\search_list_item.png"/>
+    <Image id="line_parting"          path="UserCenter\parting_line.png"/>
+    <Image id="icon_class_bk"                path="UserCenter\icon_class_bk.png"/>
+    <Image id="myShared_boardLine"           path="UserCenter\bk_myshared_boardLine.png"/>
+    <Image id="Vip_UserAvatar_bk"                 path="UserCenter\VIP_UserAvatar_bk.png"/>
+    <Image id="vip_head"                          path="UserCenter\vip_head.png"/>
+    <Image id="VIP_UserAvatar_LightBeam"          path="UserCenter\VIP_UserAvatar_LightBeam.png"/>
+    <Image id="vip_colourBar"                     path="UserCenter\vip_colourBar.png"/>
+    <Image id="vip_colourBar_LT"                  path="UserCenter\vip_colourBar_LeftTop.png"/>
+    <Image id="Vip_Star_LT"                       path="UserCenter\Vip_Star_LeftTop.png"/>
+    <Image id="Vip_icon_bk_LT"                    path="UserCenter\Vip_Bk_LeftTop.png"/>
+    <!--User Panel  End-->
+
+    <!--Retrieve pwd Panel-->
+    <Image id="retrieve_flow1_btn"              path="|R2|UserCenter\flow1_btn.png"/>
+    <Image id="retrieve_flow2_btn"              path="|R2|UserCenter\flow2_btn.png"/>
+    <Image id="retrieve_flow3_btn"              path="|R2|UserCenter\flow3_btn.png"/>
+    <Image id="retrieve_flow_split"             path="UserCenter\flow_split.png"/>
+    <Image id="retrieve_send_security_cod"      path="|R4|UserCenter\send_security_cod_btn.png"/>
+    <Image id="retrieve_send_security_cod_demo" path="UserCenter\security_code_demo.png"/>
+    <!--retrieve pwd end-->
+    
+    <!--User Setting Panel-->
+    <Image id="btn_panel_close"       path="|C3|UserCenter\btn_panel_close.png"/>
+    <Image id="btn_date_left"         path="|C4|UserCenter\btn_date_left.png"/>
+    <Image id="btn_date_right"        path="|C4|UserCenter\btn_date_right.png"/>
+    <Image id="btn_tab_left"          path="|R4|UserCenter\btn_tab_left.png"/>
+    <Image id="btn_tab_right"         path="|R4|UserCenter\btn_tab_right.png"/>
+    <Image id="btn_date_left"         path="|C4|UserCenter\btn_date_left.png"/>
+    <Image id="btn_date_right"        path="|C4|UserCenter\btn_date_right.png"/>
+    <Image id="btn_day_gray"          path="UserCenter\btn_day_gray_icon.png"/>
+    <Image id="btn_day_orange"        path="UserCenter\btn_day_orange_icon.png"/>
+    <Image id="btn_orange_icon"       path="UserCenter\btn_orange_icon.png"/>
+    <Image id="btn_gray_icon"         path="|S6,6,6,6|UserCenter\btn_day_gray_icon.png"/>
+    <!--User Setting Panel  End-->
+
+    <!--course_preview Begin-->
+    <Image id="cousepreview_bk_top"                      path="|S10,10,10,10|Frame_B\frame-b-bk-top.png"/>
+    <Image id="cousepreview_bk_close"                    path="|C3|common\btn_close.png"/>
+    <Image id="cousepreview_bk_minimize"                 path="|C3|common\btn_minimize.png"/>
+    <Image id="cousepreview_bk_maximize"                 path="|C3|common\btn_max.png"/>
+    <Image id="cousepreview_bk_restore"                  path="|C3|common\btn_restore.png"/>
+    <Image id="cousepreview_item_btn_pre"               path="|C4|Preview\item_btn_pre.png"/>
+    <Image id="cousepreview_item_btn_next"              path="|C4|Preview\item_btn_next.png"/>
+    <Image id="cousepreview_main_btn_left"               path="|C3|Preview\main_btn_left.png"/>
+    <Image id="cousepreview_main_btn_right"              path="|C3|Preview\main_btn_right.png"/>
+    <Image id="cousepreview_btn_yellow_small"            path="|R4|S20,10,20,10|common\bk_button.png"/>
+    <Image id="cousepreview_btn_red_small"               path="|R4|S20,10,20,10|common\bk_button_small.png"/>
+    <Image id="cousepreview_num_icon"                    path="|C2|Preview\num_icon.png"  />
+    <Image id="cousepreview_btn_help"                    path="|R4|common\btn_help.png"  />
+    <!--course_preview End-->
+
+    <!--DownLoadMsg Start-->
+    <Image id="download_msg_bk_down"                path="|S34,31,83,30|DownloadManager\load_bk_down.png"/>
+    <Image id="download_msg_bk_top"                 path="|S34,31,83,30|DownloadManager\load_bk_top.png"/>
+    <Image id="download_msg_close_icon"             path="DownloadManager\icon_box_close.png"/>
+    <Image id="download_msg_checkbox_icon"          path="|C3|DownloadManager\chechbox_icon.png"/>
+    <Image id="download_msg_btn_small_red"          path="|R4|S18,0,18,0|DownloadManager\btn_small_red.png"/>
+    <Image id="download_Dlg_bk"                     path="|S12,7,12,15|DownloadManager\bk_box.png"/>
+    <Image id="download_Dlg_title_left_bk"          path="DownloadManager\bk_boxtitle_l.png"/>
+    <Image id="download_Dlg_title_mid_bk"           path="|S20,0,20,0|DownloadManager\bk_boxtitle_m.png"/>
+    <Image id="download_Dlg_title_right_bk"         path="DownloadManager\bk_boxtitle_r.png"/>
+    <Image id="download_Dlg_btn_close"              path="|R4|DownloadManager\btn_box_close.png"/>
+    <Image id="download_Dlg_error_icon"             path="DownloadManager\icon_box_error.png"/>
+    <Image id="download_Dlg_NetErr_icon"            path="DownloadManager\icon_net_error.png"/>
+    <!--DownLoadMsg End-->
+
+    <!-- =========== Common Start ===========-->
+    <Image id="chk_option"          path="|C3|Common\chk_option.png"/>
+    <Image id="edit_bk"             path="|C2|S5,5,5,5|Common\edit_bk.png"/>
+    <Image id="edit_btn_close"      path="|C3|Common\edit_btn_close.png"/>
+    <Image id="gif_btn_loading"     path="Common\btn_loading.gif"/>
+    <Image id="btn_close_without_bk" path="|C3|common\btn_close_without_bk.png"/>
+    <Image id="bk_button"            path="|R4|S20,0,20,0|common\bk_button.png"/>
+    <Image id="bk_loading_orange_60"   path="common\bk_loading_orange_60.png"/>
+    <Image id="bk_loading_orange_50"   path="common\bk_loading_orange_50.png"/>
+    <Image id="bk_loading_white_60"    path="common\bk_loading_white_50.png"/>
+    <Image id="bk_loading_color_54"    path="common\bk_loading_color_54.png"/>
+    <Image id="bk_loading_color_68"    path="common\bk_loading_color_68.png"/>
+    <Image id="bk_lay_black"            path="|S10,10,10,10|common\lay_black_bk.png"/>
+    <Image id="btn_red_orange"         path="|R4|S20,0,20,0|common\bk_button_small.png"/>
+    <Image id="bk_window_title"         path="|S20,20,20,20|common\bk_title.png"/>
+    <Image id="bk_window_main"          path="|S10,10,10,10|common\bk_window_main.png"/>
+    <Image id="bk_arrow_BubbleRight"  path="common\arrow_BubbleRight.png"/>
+    <Image id="bk_BubblePop"          path="|S15,15,15,15|common\bk_BubblePop.png"/>
+    <Image id="bk_btn_darkyellow"     path="|R4|S15,0,15,0|common\bk_button_dark.png"/>
+    <Image id="bk_btn_red"            path="|R4|S15,0,15,0|common\bk_button_red.png"/>
+    <Image id="icon_logo"             path="common\icon_logo.ico"/>
+    <Image id="netless"               path="common\error_netless.png"/>
+    <Image id="bk_close36"            path="|R4|common\btn_close36.png"/>
+    <Image id="bk_backoff"              path="|R4|common\icon_bakoff.png"/>
+    <Image id="bk_forward"              path="|R4|common\icon_forward.png"/>
+    <Image id="bk_refresh"              path="|R4|common\icon_refresh.png"/>
+    <Image id="bk_arrow_right_wnd"      path="|S17,18,39,18|Common\arrow_right_wnd.png"/>
+    <Image id="icon_title_more"         path="Common\title_more_icon.png"/>
+    <Image id="5G_Teacher_Space_icon"             path="Common\icon_vip_top.png"/>
+    <Image id="5G_Teacher_Space_Progress_bk"      path="|S10,2,10,2|common\5G_Teacher_Space_Progress_bk.png"/>
+    <Image id="5G_Teacher_Space_Progress_green"   path="|S10,2,10,2|common\5G_Teacher_Space_Progress_green.png"/>
+    <Image id="5G_Teacher_Space_Progress_yellow"  path="|S10,2,10,2|common\5G_Teacher_Space_Progress_Yellow.png"/>
+    <Image id="5G_Teacher_Space_Progress_red"     path="|S10,2,10,2|common\5G_Teacher_Space_Progress_Red.png"/>
+    <!-- =========== Common  End ===========-->
+
+    <!--common start-->
+    <Image id="bk_button"           path="|R4|S20,18,20,18|common\bk_button.png"/>
+    <Image id="common_icon_asterisk"            path="common\icon_asterisk.png"/>
+    <Image id="common_icon_exclamation"         path="common\icon_exclamation.png"/>
+    <Image id="common_icon_hand"                path="common\icon_hand.png"/>
+    <Image id="common_icon_question"            path="common\icon_question.png"/>
+
+    <!--common End-->
+    
+  </Image>
+
+  <Font>
+    <Font id ="DefaultFont" face ="微软雅黑" height ="12" />
+    <Font id="font8"  face ="微软雅黑" height ="8" bold="0"/>
+    <Font id="font10"  face ="微软雅黑" height ="10" bold="1"/>
+    <Font id="font10Arial"  face ="Arial Unicode MS" height ="10" bold="0"/>
+    <Font id="font10ArialUMS"  face ="Arial Unicode MS" height ="10" bold="0"/>
+    <Font id="font11"  face ="微软雅黑" height ="11" />
+    <Font id="font12"  face ="微软雅黑" height ="12" underline="0" bold="0"/>
+    <Font id="font12b" face ="微软雅黑" height ="12" underline="0" bold="1"/>
+    <Font id="font13"  face ="微软雅黑" height ="13" underline="0" bold="0"/>
+    <Font id="font13b" face ="微软雅黑" height ="13" underline="0" bold="1"/>
+    <Font id="font14"  face ="微软雅黑" height ="14" underline="0" bold="0"/>
+    <Font id="font14b" face ="微软雅黑" height ="14" underline="0" bold="1"/>
+    <Font id="font14s" face ="微软雅黑" height ="14" underline="0" bold="0"  strikeout="1"/>
+    <Font id="font14u" face ="微软雅黑" height ="14" underline="1" bold="0"  />
+    <Font id="font15"  face ="微软雅黑" height ="15" underline="0" bold="0"/>
+    <Font id="font15b" face ="微软雅黑" height ="15" underline="0" bold="1"/>
+    <Font id="font16"  face ="微软雅黑" height ="16" underline="0" bold="0"/>
+    <Font id="font16b" face ="微软雅黑" height ="16" underline="0" bold="1"/>
+    <Font id="font17b" face ="微软雅黑" height ="17" underline="0" bold="1"/>
+    <Font id="font18"  face ="微软雅黑" height ="18" underline="0" bold="0"/>
+    <Font id="font18b" face ="微软雅黑" height ="18" underline="0" bold="1"/>
+    <Font id="font20b" face ="微软雅黑" height ="20" underline="0" bold="1"/>
+    <Font id="font20" face ="微软雅黑" height ="20" underline="0"/>
+    <Font id="font21" face ="微软雅黑" height ="21" unlineline="0"/>
+    <Font id="font21b" face ="微软雅黑" height ="21" unlineline="0" bold="1"/>
+    <Font id="font22"  face ="微软雅黑" height ="22" underline="0" bold="0"/>
+    <Font id="font22b" face ="微软雅黑" height ="22" underline="0" bold="1"/>
+    <Font id="font24" face ="微软雅黑" height ="24" underline="0" bold="0" TextRenderHint="3"/>
+    <Font id="font24b" face ="微软雅黑" height ="24" underline="0" bold="1"/>
+    <Font id="font26" face ="微软雅黑" height ="26" underline="0" bold="0" />
+    <Font id="font26b" face ="微软雅黑" height ="26" underline="0" bold="1" />
+    <Font id="font28" face ="微软雅黑" height ="28" underline="0" bold="0" />
+    <Font id="font28b" face ="微软雅黑" height ="28" underline="0" bold="1" />
+    <Font id="font30"  face ="微软雅黑" height ="30" underline="0" bold="0"/>
+    <Font id="font30b"  face ="微软雅黑" height ="30" underline="0" bold="1"/>
+    <Font id="font32"  face ="微软雅黑" height ="32" unlineline="0" bold="0"/>
+    <Font id="font32b"  face ="微软雅黑" height ="32" unlineline="0" bold="1"/>
+    <Font id="font34"  face ="微软雅黑" height ="34" underline="0" bold="0"/>
+    <Font id="font35"  face ="微软雅黑" height ="35" underline="0" bold="0"/>
+    <Font id="font36"  face ="微软雅黑" height ="36" unlineline="0" bold="0"/>
+    <Font id="font36b"  face ="微软雅黑" height ="36" unlineline="0" bold="1"/>
+    <Font id="font40"  face="微软雅黑" height="40" underline="0" bold="0" TextRenderHint="3"/>
+    <Font id="font40b"  face="微软雅黑" height="40" underline="0" bold="1"/>
+    <Font id="font42"  face ="微软雅黑" height ="42" underline="0" bold="0"/>
+    <Font id="font45"  face="微软雅黑" height="45" underline="0" bold="0"/>
+    <Font id="font48"  face="微软雅黑" height="48" unlineline="0" bold="0"/>
+    <Font id="font48b"  face="微软雅黑" height="48" unlineline="0" bold="1"/>
+    <Font id="font50"  face="微软雅黑" height="50" underline="0" bold="0"/>
+    <Font id="font60"  face="微软雅黑" height="60" underline="0" bold="0"/>
+    <Font id="font60b"  face="微软雅黑" height="60" unlineline="0" bold="1"/>
+    <Font id="font72b"  face="微软雅黑" height="72" unlineline="0" bold="1"/>
+  </Font>
+
+  <String>
+    <!--User Center-->
+    <String id="Uc_GoBack">返回</String>
+    <String id="Uc_ScanQrCode">扫描二维码</String>
+    <String id="Uc_ConnectToMobile">将手机与电脑连接并操控PPT或安装软件至手机端</String>
+    <String id="Uc_CheckUpdate">检查更新</String>
+    <String id="Uc_UpdateLog">更新日志</String>
+    <String id="Uc_ContactUs">联系我们</String>
+    <String id="Uc_Feedback">意见反馈</String>
+    <String id="Uc_About">关于</String>
+    <String id="Uc_ChangeOne">换一张</String>
+    <String id="Uc_DefaultSecurityCodeTips">请输入验证码</String>
+    <String id="Uc_DefaultSecurityCodeTipsSendSecurityCode">发送验证码</String>
+    <String id="Uc_PwdLengthLess6">密码长度6-20个字符</String>
+    <String id="Uc_PwdNotBeNull">密码不能为空</String>
+    <String id="Uc_AccountNotBeNull">账号不能为空</String>
+    <String id="Uc_AccountExist">该账号已注册</String>
+    <String id="Uc_VertifyNotBeNull">验证码不能为空</String>
+    <String id="Uc_PhoneFormatErr">手机号格式不正确</String>
+    <String id="Uc_EMailFormatErr">您输入的邮箱格式有误,请输入正确的邮箱</String>
+    <String id="Uc_RepeatNotBeNull">重复密码不能为空</String>
+    <String id="Uc_TwiceInputNotSame">两次输入密码不相同，请重新输入</String>
+    <!--User Center End-->
+
+    <!--Login Panel-->
+    <String id="Lp_DefaultUserAccountTip">请输入用户名</String>
+    <String id="Lp_DefaultUserPasswordTip">请输入密码</String>
+    <String id="Lp_RemPasswrod">记住密码</String>
+    <String id="Lp_AutoLogin">自动登录</String>
+    <String id="Lp_ForgetPassword">忘记密码？</String>
+    <String id="Lp_Login">登录</String>
+    <String id="Lp_IsNewUser">新用户？</String>
+    <String id="Lp_RegisterNow">立即注册</String>
+    <String id="Lp_ThirdPartyLogin">其他账号登录</String>
+    <String id="Lp_WeiBo">微博</String>
+    <String id="Lp_QQ">QQ</String>
+    <String id="Lp_WeiXin">微信</String>
+    <String id="Lp_GzEic">广州电教馆</String>
+    <String id="Lp_OtherWay">更多方式</String>
+    <String id="Lp_Prompt">正在登录...</String>
+    <!--Login Panel End-->
+
+    <!--ThirdLogin start-->
+    <Image id="ThirdLogin_server_disconnect"  path="UserCenter\server_disconnect.png"/>
+    <Image id="ThirdLogin_retry_btn"          path="|R4|UserCenter\retry_btn.png"/>
+    <!--ThirdLogin End-->
+
+    <!--ThirdLogin start-->
+    <String id="TL_LoginFormat">%s登录</String>
+    <String id="TL_Retry_Tipe">服务器在开小差，再试试看~</String>
+    <String id="TL_Retry">立即重试</String>
+
+    <!--Common-->
+    <String id="StrCancel">取消登录</String>
+    <String id="StrClose">关闭</String>
+    <String id="StrMinimize">最小化</String>
+    <String id="StrRestore">还原</String>
+    <String id="StrMaximize">最大化</String>
+    <String id="StrSetting">设置</String>
+    <String id="StrNext">下一步</String>
+    <String id="StrFinish">完成</String>
+    <String id="StrLoading">加载中，请稍后</String>
+    <String id="StrNewDocument">新建文档</String>
+    <String id="MessageBox_StrCancel">取消</String>
+    <String id="MessageBox_StrCertain">确定</String>
+    <String id="MessageBox_StrYes">是</String>
+    <String id="MessageBox_StrNo">否</String>
+    <String id="MessageBox_StrAbort">放弃</String>
+    <String id="MessageBox_StrRetry">重试</String>
+    <String id="MessageBox_StrIgnore">跳过</String>
+    <String id="MessageBox_StrContinue">继续</String>
+
+    <String id="StrOpenPPTSlide">打开演示文稿</String>
+    <String id="StrHelp">帮助</String>
+    <String id="StrHidePwd">点击隐藏密码</String>
+    <String id="StrShowPwd">点击显示密码</String>
+    <String id="StrAccountList">账号列表</String>
+    <!--Common End-->
+
+    <!--Register Panel-->
+    <String id="Register_NewUserRegister">新用户注册</String>
+    <String id="Register_DefaultAccountTips">手机号/邮箱</String>
+    <String id="Register_DefaultAccountTipsMail">邮箱</String>
+    <String id="Register_DefaultPasswordTips">设置密码</String>
+    <String id="Register_DefaultPasswordTopSmallTips">6-20个字符，区分大小写</String>
+    <String id="Register_DefaultCertainTips">确认密码</String>
+    <String id="Register_DefaultSecurityCodeTips">请输入验证码</String>
+    <String id="Register_Register">注册</String>
+    <String id="Register_RegisterAsAgree">注册视为同意</String>
+    <String id="Register_LegalAndPrivacy">《法律条款和隐私说明》</String>
+    <String id="Register_101PPTUserServiceAgreement">101教育PPT用户服务协议</String>
+    <String id="Register_HasAccount">已有账号，</String>
+    <String id="Register_DirectLogin">直接登录</String>
+    <String id="Register_Success_Format">注册成功，即将返回登录界面%d</String>
+    <String id="Register_MobileRegister">手机注册</String>
+    <String id="Register_EMailRegister">邮箱注册</String>
+    <String id="Register_EnterMobile">请输入手机号码</String>
+    <String id="Register_EnterEMail">请输入邮箱账号</String>
+    <String id="Register_EnterSendMsgCode">请输入短信验证码</String>
+    <!--Register Panel End-->
+
+    <!--Retrieve begin-->
+    <String id="Retrieve_RetrievePwd">找回密码</String>
+    <String id="Retrieve_CertainAccount">确认账号</String>
+    <String id="Retrieve_SafeVertify">安全验证</String>
+    <String id="Retrieve_ResetPwd">重置密码</String>
+    <String id="Retrieve_DefaultAccountTips">请输入您需要找回密码的账号</String>
+    <String id="Retrieve_ReturnLogin">&lt; 返回登录</String>
+    <String id="Retrieve_WarningAuthentication">为了您的账号安全，请完成身份验证</String>
+    <String id="Retrieve_NewPwd">新密码</String>
+    <String id="Retrieve_RepeatPwd">重复密码</String>
+    <String id="Retrieve_ResendCode">重新发送(%02d)</String>
+    <String id="Retrieve_SendSecurityCode">发送验证码</String>
+    <String id="Retrieve_ModifySuccess_Format">%ds后自动返回登录页</String>
+    <String id="Retrieve_EnterAccount">请输入手机号/邮箱</String>
+    <String id="Retrieve_SendEMailTo">已发送验证信息至</String>
+    <String id="Retrieve_ResetEMailPwd">请您及时查收，并根据邮件内容完成新密码设置</String>
+    <String id="Retrieve_ReceieveEMailFail">没有收到邮件?</String>
+    <String id="Retrieve_ReSendEMail">重新发送</String>
+    <String id="Retrieve_CompletedResetEMailPwd">已完成</String>
+    <String id="Retrieve_AccountFail">该账号暂不支持找回密码</String>
+    <String id="Retrieve_Success">设置密码成功</String>
+    <!--Retrieve End-->
+
+    <!--Navigation Start-->
+    <String id="UserInfo_Setting">设置</String>
+    <String id="UserInfo_Logout">退出登录</String>
+    <String id="UserSetting_Open_Reminder">开启固定时间提醒</String>
+    <String id="UserSetting_TimeInterval">时间间隔：</String>
+    <String id="UserSetting_Minutes">分钟</String>
+    <String id="UserSetting_Open_Voice">开启语音播报</String>
+    <String id="UserSetting_Used">应用</String>
+    <String id="UserSetting_Cancle">取消</String>
+    <!--Navigation End-->
+  </String>
+
+  <Color>
+    <!--common color-->
+    <Color id="Color_Normal"        value="986a3d"/>
+    <Color id="Color_Hover"         value="dd6a1c"/>
+    <Color id="Color_Checked"       value="dd6a1c"/>
+    <Color id="Color_Push"          value="b0501c"/>
+    <Color id="Color_Disable"       value="999999"/>
+    <!--common color end-->
+
+    <Color id="UcTitleBK"           value="2F96F9"/>
+    <Color id="UcLabelNormalColor"  value="986a3d"/>
+    <Color id="UcBtnNormalColor"    value="986a3d"/>
+    <Color id="UcBtnHoverColor"     value="dd6a1c"/>
+    <Color id="UcBtnCheckedColor"   value="dd6a1c"/>
+    <Color id="UcBtnDisableColor"   value="b09585"/>
+    <Color id="UcErrorTipColor"     value="ee4119"/>
+    <Color id="UcEmptyTipColor"     value="d2bc9c"/>
+    <Color id="UcCornerTipColor"    value="ee4119"/>
+
+
+    <Color id="Navigation_Labelnormal"        value="aa5015"/>
+    <Color id="Navigation_Labelhover"         value="dd6a1c"/>
+    <Color id="Navigation_Labelpush"          value="b0501c"/>
+
+    <Color id="PackUnpack_bk_color"           value="fff7f3e9" />
+
+    <Color id="Color_Default"        value="923a00"/>
+    <Color id="Color_FrameB_Option"  value="986a3d"/>
+    <Color id="Color_PopupWindowTitle" value="dd6a1c"/>
+    <Color id="Color_Seperate"       value="e3d9c9"/>
+    <Color id="Color_White"          value="ffffff"/>
+    <Color id="Color_Gray"           value="d8cec8"/>
+    <Color id="Color_ItemButton"     value="59493f"/>
+    <Color id="Color_LogoText"       value="f3e9cc"/>
+    <Color id="Color_DBank"          value="8a745e"/>
+    <Color id="Color_OptionInside"   value="fff9f6ef"/>
+    <Color id="Color_OptionBound"    value="ffe9d9c1"/>
+    <Color id="Color_EditBound"      value="e1e2e3"/>
+    <Color id="Color_EditText"       value="666666"/>
+    <Color id="Color_ResoursePush"   value="dd6a1c"/>
+    <Color id="Color_ResourseNormal" value="999999"/>
+    <Color id="Color_PushButton"     value="aa5015"/>
+    <Color id="Color_DarkGray"       value="333333"/>
+    <Color id="Color_SplitLine"      value="dac8ae" />
+    <Color id="Color_FullText"       value="f37e2f" />
+    <Color id="Color_Shadow"         value="95000000"/>
+    <Color id="Color_LittleShadow"   value="66000000"/>
+    <Color id="Color_Green"          value="87c43e" />
+    <Color id="Color_Red"            value="87c43e" />
+    <Color id="Color_RootText"       value="b0a59f" />
+    <Color id="Color_NormalText"     value="492b00" />
+    <Color id="Color_HoverText"      value="dd6a1c" />
+    <Color id="Color_PushText"       value="aa501c" />
+    <Color id="Color_EMailText"      value="8b684d" />
+    <Color id="Color_EditLine"       value="e9e0d3" />
+    <Color id="Color_EditTxt"        value="9e9e9e" />
+    <Color id="Color_LightGray"      value="e4e4e4" />
+    <!--Item start-->
+    <Color id="ItemColor_NormalBtn" value="59493f"/>
+    <Color id="ItemColor_HoverBtn" value="dd6a1c"/>
+    <Color id="ItemColor_PushBtn" value="aa5015"/>
+    <Color id="ItemColor_DisableBtn" value="999999"/>
+    <Color id="ItemColor_Provider" value="e4e4e4"/>
+    <!--Item end-->
+
+    <!--DownloadManager start-->
+    <Color id="DLWhiteColor"        value="ffffff"/>
+    <Color id="DLNoneTipColor"      value="666666"/>
+    <Color id="DLBtnNorTxtColor"    value="986a3d"/>
+    <Color id="DLBtnDownTxtColor"   value="b0501c"/>
+    <Color id="DLBtnOverTxtColor"   value="dd6a1c"/>
+    <Color id="DLDisTxtColor"       value="79848D"/>
+    <Color id="DLImgBorderColor"    value="FFD1C0A5"/>
+    <Color id="DLTitleTxtColor"     value="333333"/>
+    <Color id="DLTitleGrayColor"    value="BABABA"/>
+    <Color id="DLScheduleTxtColor"  value="999999"/>
+    <Color id="DLItemSliderColor"   value="e3d9c9"/>
+    <Color id="DLTimeSliderColor"   value="f1ece4"/>
+    <Color id="DLCancelBtnColor"    value="923a00"/>
+    <Color id="DLStopTipColor"      value="E83B1B"/>
+    <Color id="DLSliderColor"       value="f1ece4"/>
+    <!--DownloadManager end-->
+
+    <!--Preview start-->
+    <Color id="PreviewResourseNameColor"      value="999999"/>
+    <Color id="PreviewPageIndexColor"      value="ffffff"/>
+    <Color id="PreviewBottomBkColor"      value="444444"/>
+    <!--Preview end-->
+
+    <!--chapter start-->
+    <Color id="chapter_Title_Color"      value="923a00"/>
+    <Color id="chapter_common_blank_color_low"      value="333333"/>
+    <Color id="chapter_Label_blank_color_center"      value="666666"/>
+    <Color id="chapter_Label_blank_color_high"      value="999999"/>
+    <Color id="chapter_common_golden_color_low"      value="986a3d"/>
+    <Color id="chapter_common_golden_color_center"      value="dd6a1c"/>
+    <Color id="chapter_common_golden_color_high"      value="aa5015"/>
+    <Color id="chapter_common_Line"      value="f1ece4"/>
+    <Color id="chapter_common_Line_high"      value="f6f2e8"/>
+    <Color id="chapter_common_Line_high_alpha"      value="fff6f2e8"/>
+    <!--chapter end-->
+
+    <!--FloatingWnd start-->
+    <Color id="SliderFloat_nor_Color"      value="986a3d"/>
+    <Color id="SliderFloat_over_Color"     value="dd6a1c"/>
+    <Color id="SliderFloat_down_Color"     value="aa5015"/>
+    <!--FloatingWnd end-->
+
+    <Color id="dbank_color_upload" value="a0a0a0"/>
+    <Color id="dbank_color_uploadfailed" value="f9f6ef"/>
+    <Color id="dbank_color_uploadretry" value="80000000"/>
+    <Color id="dbank_color_bkretry" value="80ffffff"/>
+    <Color id="dbank_color_boundretry" value="FFD1C0A5"/>
+
+    <!--Update start-->
+    <Color id="Color_Update_title"               value="ba8c61"/>
+    <Color id="Color_Update_version"               value="f5711f"/>
+    <Color id="Color_Update_fail"               value="ff0000"/>
+    <Color id="Color_Update_finish_remind"      value="ef6340"/>
+    <!--Update end-->
+
+    <!--Register start-->
+    <Color id="Color_Register_title"               value="a98b72"/>
+    <Color id="Color_Register_Tip"                 value="ee5b3f"/>
+    <!--Register end-->
+    <!--Nurturance start-->
+    <Color id="Color_Nurturance_label"               value="cfa66e"/>
+    <!--Nurturance end-->
+    <!-- Pack start-->
+    <Color id="Color_Pack_Label"                value="807458"/>
+    <Color id="Color_Pack_Error"                value="d45c41"/>
+    <Color id="Color_Upload_Label"              value="785b3b"/>
+    <Color id="Color_Upload_Tip"                value="97938d"/>
+    <Color id="Color_Office_littleLayer"        value="01000000"/>
+    <!-- Pack end-->
+
+
+  </Color>
+
+</skin>
+
+

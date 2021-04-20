@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<skin version="1.0" load="1">
+  <Image>
+    <!--框架图片，勿动-->
+    <Image id="layoutbk"          path="|U|S1,1,1,1|framework#common\layout_bk.png"/>
+    <Image id="textglow"          path="framework#common\text_glow.png"/>
+    <Image id="button_mask"       path="|U|C5|S2,2,2,2|framework#common\button_mask.png" />
+  </Image>
+
+  <Global>
+    <Global id ="vscrollbar"  value="6,0,0,0"/>
+    <!--垂直滚动大小-->
+    <Global id ="hscrollbar"  value="0,10,0,0"/>
+    <!--水平滚动大小-->
+    <Global id ="shadow"      value="18,13,18,23"/>
+    <!--窗口阴影边缘大小-->
+  </Global>
+</skin>
+

@@ -1,0 +1,174 @@
+﻿<skin version="1.0" >
+    <Window id="LoginWindow" minWidth="324" minHeight="550" move="1" resize="0" title="" store="0" icon="#ai_logo" windowbigicon="#ai_logo">
+      <Layout pos="LT|0,0,324,550" style="BkWindow">
+      <Button id="btn_close_login" pos="RT|10,10,36,36"  bk.image="#bk_close36" bk.imgseq="0,1,2,1,1" bk.paintmode="center"/>
+      <Layout mode="vertfill" id="LoginPanel" pos="LTRB|28,0,28,0" visible="1">
+
+        <!--padding-->
+        <Control pos="LT|0,0,0,146" id="login_resolution_blank" visible="1"/>
+        
+
+        <!--error_tip-->
+        <Layout pos="9|0,0,0,30">
+          <Label id="login_prompt" pos="8|0,0,0,0" text="" txt.font="font12" txt.color="#UcErrorTipColor" txt.halign="center" txt.valign="center" txt.endellipsis="1" tooltip="" EnableMouse="1"/>
+        </Layout>
+        
+        <!--input-->
+        <Container>
+          <Layout id="login" mode="vertfill">
+            <Container pos="LT|0,0,0,46">
+              
+              <XML id="EditLayoutStyle" alayout.icon.bk.image="#icon_user" alayout.b_txt.text="#Lp_DefaultUserAccountTip"
+                   alayout.ed.emptytips="#Lp_DefaultUserAccountTip" alayout.ed.maxutf8char="30" alayout.ed.exceptlimit="chinese space" alayout.btn_layout.pos="5|49,18,25,0"
+                   alayout.ed.txt_empty.font="font14"  alayout.ed.txt_empty.textcolor="#UcEmptyTipColor" alayout.emptytext="#Uc_AccountNotBeNull" 
+                   alayout.id="edit_account" alayout.btn_layout.btn_close.id="btn_acct_close"/>
+              
+              <Layout pos="5|25,18,0,0">
+                <Button id="btn_pull_down" pos="9|-1,-1,25,18" bk.image="#btn_pull_down" bk.pos="9|-1,-1,10,5" tooltip="#StrAccountList"/>
+                <Button id="btn_drop_down" pos="9|-1,-1,25,18" bk.image="#btn_pull_down" bk.imgseq="2,2,2" bk.pos="9|-1,-1,10,5" visible="0"/>
+              </Layout>
+              
+            </Container>
+
+            <Container pos="LT|0,0,0,46">
+              <XML id="EditLayoutStyle" alayout.icon.bk.image="#icon_password" alayout.b_txt.text="#Lp_DefaultUserPasswordTip"
+                   alayout.ed.emptytips="#Lp_DefaultUserPasswordTip" alayout.ed.maxutf8char="60" alayout.btn_layout.pos="5|49,18,25,0" alayout.ed.password="1" alayout.ed.exceptlimit="chinese" 
+                   alayout.ed.txt_empty.font="font14"  alayout.ed.txt_empty.textcolor="#UcEmptyTipColor" alayout.errorregex="^[^]{6,20}$" alayout.errortxt="#Uc_PwdLengthLess6" 
+                   alayout.emptytext="#Uc_PwdNotBeNull" alayout.id="edit_password"/>
+
+              <Container pos="5|25,18,0,0">
+                <Button id="btn_hide_pwd" pos="9|-1,-1,15,8" bk.image="#btn_hide_pwd" tooltip="#StrShowPwd"/>
+                <Button id="btn_show_pwd" pos="9|-1,-1,15,8" bk.image="#btn_show_pwd" visible="0" tooltip="#StrHidePwd"/>
+              </Container>
+            </Container>
+
+            <!--input end-->
+
+            <Layout pos="LT|0,0,0,50"/>
+
+            <!--other login setting check end-->
+            <Layout mode="horzfill" pos="9|0,0,0,70">
+              <Button id="btn_login" style="ImageButton" pos="LT|-1,-1,266,40" bk.image="#btn_uc_biz"
+                    text="#Lp_Login" txt.font="font18" txt.color="#Color_White"
+                    over_txt.font="font18" over_txt.color="#Color_White"
+                    push_txt.font="font18" push_txt.color="#Color_White"/>
+            </Layout>
+           
+           
+          </Layout>
+          <Layout id="logining" visible="0">
+            <Button id="btn_cancel_login" style="ImageButton" pos="LT|-1,-1,266,40" bk.image="#btn_uc_biz"
+                    text="#StrCancel" txt.font="font18" txt.color="#Color_White"
+                    over_txt.font="font18" over_txt.color="#Color_White"
+                    push_txt.font="font18" push_txt.color="#Color_White"/>
+          </Layout>
+        </Container>
+
+       </Layout>
+        
+        <XML id="UserInfoPanelStyle" basic_layout.visible="0"/>
+        </Layout>
+      </Window>
+  
+  <Style>
+
+    <Style id="EditLayoutStyle">
+      <!--DirectUI在属性上有个设计缺陷，这边ID‘b_txt’‘alayout’为特殊处理-->
+      <EditLayout id="alayout">
+        <Control id="icon" style="Picture" bk.pos="LB|0,0,18,18"/>
+        <Control id="under_line" pos="LTRB|26,18,0,0" style="Picture" bk.image="#edit_bk" bk.imgseq="0,0,0" bk.pos="LTRB|0,0,0,0"/>
+        <EditEx id="ed" bk.image="" pos="LTRB|26,18,45,0" txt.font="font14" txt_empty.font="font14" txt_empty.textcolor="#UcEmptyTipColor"/>
+        <Label id="b_txt" pos="LTRT|30,6,0,18" txt.font="font12" txt.endellipsis="1" txt.color="#Color_Gray" visible="0"/>
+        <Label id="error_txt" pos="LTRT|30,6,0,18" txt.font="font12" txt.color="#UcErrorTipColor" txt.endellipsis="1" visible="0"/>
+        <Layout id="btn_layout" pos="5|26,18,0,0" visible="0">
+          <Button id="btn_close" pos="9|0,-1,16,16" bk.image="#edit_btn_close"/>
+        </Layout>
+      </EditLayout>
+    </Style>
+
+   
+
+    <Style id="TextButton">
+      <Text id="txt" state="normal" pos="LTRB|0,0,0,0" font="font14" halign="center" valign="center" color="#UcBtnNormalColor"/>
+      <Text id="over_txt" state="over" pos="LTRB|0,0,0,0" font="font14" halign="center" valign="center" color="#UcBtnHoverColor"/>
+      <Text id="push_txt" state="down|focus" pos="LTRB|0,0,0,0" font="font14" halign="center" valign="center" color="#UcBtnNormalColor"/>
+    </Style>
+
+    <Style id="ImageOption">
+      <Image id="bk" state="all" imgseq="0,1,2,3,4"/>
+      <Image id="bk_over" state="over" imgseq="1,1,1,1"  pos="LTRB|0,0,0,0"/>
+      <Image id="bk_ck" state="ckall" imgseq="1,1,1,1"  pos="LTRB|0,0,0,0"/>
+      <Text id="txt" state="normal" pos="LTRB|0,0,0,0" font="font14" halign="center" valign="center" color="#UcBtnNormalColor"/>
+      <Text id="over_txt" state="over" pos="LTRB|0,0,0,0" font="font14" halign="center" valign="center" color="#UcBtnHoverColor"/>
+      <Text id="push_txt" state="down|focus" pos="LTRB|0,0,0,0" font="font14" halign="center" valign="center" color="#UcBtnNormalColor"/>
+      <Text id="disbale_txt" state="disable" pos="LTRB|0,0,0,0" font="font14" halign="center" valign="center" color="#UcBtnDisableColor"/>
+      <Text id="txt_ck" state="ckall"  pos="8|0,0,0,0" font="font14" halign="center" valign="center" color="#UcBtnCheckedColor"/>
+    </Style>
+
+    <Style id="ImageTextButton">
+      <Image id="bk" state="all" imgseq="0,1,2,2,3"/>
+      <Image id="bk_right" state="all" imgseq="0,1,2,2,3"/>
+      <Text id="txt" state="normal" pos="LTRB|0,0,0,0" font="font14" halign="left" valign="center" color="#UcBtnNormalColor"/>
+      <Text id="over_txt" state="over" pos="LTRB|0,0,0,0" font="font14" halign="left" valign="center" color="#UcBtnHoverColor"/>
+      <Text id="push_txt" state="down|focus" pos="LTRB|0,0,0,0" font="font14" halign="left" valign="center" color="#UcBtnNormalColor"/>
+      <Text id="disable_txt" state="disable" pos="LTRB|0,0,0,0" font="font14" halign="left" valign="center" color="#UcBtnDisableColor"/>
+    </Style>
+
+    <Style id="TextClolorButtonStyle">
+      <Image id="bk" state="all" imgseq="0,1,2,3"/>
+      <Image id="bk_right" state="all" imgseq="0,1,2,3"/>
+      <Image id="bk_ck" state="ckover|cknormal|ckdown" pos="LTRB|0,0,0,0" imgseq="1,1,1,1,1"/>
+      <Image id="bk_over" state="over" pos="LTRB|0,0,0,0" imgseq="1,1,1,1,1"/>
+      <Image id="bk_push" state="down" pos="LTRB|0,0,0,0" imgseq="1,1,1,1,1"/>
+      <Text id="txt_ck" text="" state="ckover|cknormal|ckdown" font="font14" pos="LTRB|0,0,0,0" halign="center" valign="center"/>
+      <Text id="txt" state="normal" pos="LTRB|0,0,0,0" font="font14" halign="center" valign="center" color="#UcBtnNormalColor"/>
+      <Text id="over_txt" state="over" pos="LTRB|0,0,0,0" font="font14" halign="center" valign="center" color="#ItemColor_HoverBtn"/>
+      <Text id="push_txt" state="down" pos="LTRB|0,0,0,0" font="font14" halign="center" valign="center" color="#ItemColor_PushBtn"/>
+    </Style>
+    
+    <Style id="PullDownStyle">
+      <Layout id="pd_layout" pos="LT|0,0,0,46">
+        <Button id="pd_user" style="TextClolorButtonStyle" pos="8|0,0,0,0" bk_over.image="#icon_select_bg" bk_over.imgseq="0,0,0" text="15959086123" txt.pos="LTRB|8,0,0,0" txt.halign="left" over_txt.pos="LTRB|8,0,0,0" over_txt.halign="left" push_txt.pos="LTRB|8,0,0,0" push_txt.halign="left"/>
+        <Button id="pd_del" pos="RT|14,-1,18,18" bk.image="#btn_del" bk.pos="LT|-1,-1,8,8"/>
+        <Control style="Picture" pos="LBRB|0,1,0,0" bk.image="#icon_underline"/>
+      </Layout>
+    </Style>
+
+    <Style id="MaskButton">
+      <!--<Image id="bk" state="all"  image="#button"  imgseq="0,1,2,3,4" pos="8|0,0,0,0"/>
+      <Text  id="txt" state="non"  pos="8|0,0,0,0"  halign="center" valign="center"/>
+      <Text  id="txt_disable" state="disable"  pos="8|0,0,0,0"  halign="center" valign="center" textcolor="79848D"/>-->
+      <Image id="mask" state="non"  pos="8|0,0,0,0"/>
+      <Image id="icon" state="non" cache="0" pos="8|0,0,0,0"/>
+    </Style>
+
+    <Style id="AnimationCtrl" >
+      <Image id="bk" state="non" pos="8|0,0,0,0"/>
+      <Image id="anim" state="non" pos="8|0,0,0,0"/>
+    </Style>
+
+    <!--loading start-->
+    <Style id="EmptyLoadingStyle">
+      <RotateAnimation id="ani_loading" pos="LT|-1,-1,68,68" style="AnimationCtrl" image="#bk_loading_color_68" bk.image="#item_bk_default_68"/>
+    </Style>
+
+    <Style id="ContentLoadingStyle">
+      <RotateAnimation id="ani_loading" pos="LT|-1,-1,54,54" style="AnimationCtrl" image="#bk_loading_color_54" bk.image="#item_bk_default"/>
+    </Style>
+
+    <Style id="ThumbnailLoadingStyle">
+      <RotateAnimation id="ani_loading" pos="LT|-1,-1,54,54" style="AnimationCtrl" image="#bk_loading_white_60" bk.image="#item_bk_default" />
+    </Style>
+
+    <Style id="ControlWnd">
+      <Image id="bk" state="non" pos="8|0,0,0,0"/>
+    </Style>
+
+    <Style id="BkWindow">
+      <Image state="non"  image="#bk_window_main" pos="LTRB|0,0,0,0"/>
+    </Style>
+    
+  </Style>
+
+</skin>
+

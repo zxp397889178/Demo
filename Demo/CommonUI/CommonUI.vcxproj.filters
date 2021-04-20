@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Control">
+      <UniqueIdentifier>{89b4acaf-c649-4c2b-964c-3b61f7ae904a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{449c2062-cc51-49a1-8e49-0719fd1622ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Layout">
+      <UniqueIdentifier>{c8767d91-b28d-4330-81b8-492edb1d2424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Soure Files">
+      <UniqueIdentifier>{9f542f2e-d557-4789-afd5-80afd791e829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{393d5e72-7f5d-4305-b6b5-7efe162c2b04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wrapper">
+      <UniqueIdentifier>{1e0bd11e-56ab-4278-b162-0a4d815b4d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{5ed99247-07c4-4a6b-bccc-d835c3f65983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Biz">
+      <UniqueIdentifier>{f0f01818-9e64-4549-b55c-32cdcf5f8bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Style">
+      <UniqueIdentifier>{457db7ab-6ff0-4c8e-b3a6-c031c1736818}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\CommonUI\UIClassifyTabLayout.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIDragImage.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIEditEx.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIEditLayout.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIFigurePic.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIIndentifyWnd.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UILoadingButton.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIMaskButton.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIRotateAnimation.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIRoundProgressBar.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIShadowOptionLayout.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UITrackerBox.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\WindowPtrMap.h">
+      <Filter>Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\WindowPtrMapImpl.h">
+      <Filter>Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\CommonUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\Toast.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIAutoSizeCheckBox.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIMarqueeLabel.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIProgressBarEx.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\DecorateBaseWindow.h">
+      <Filter>Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\WndDecorate.h">
+      <Filter>Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\DecorateBaseLayout.h">
+      <Filter>Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIScreenToolGroup.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIInteractOptionLayout.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIAnimationButton.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UILayoutButton.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIAssociateVisibleButton.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIWrapContentLayout.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIHelper.hpp">
+      <Filter>Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\WindowPtrRef.h">
+      <Filter>Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\WindowPtrHolder.h">
+      <Filter>Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIHtmlLabelEx.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UILayoutTwinkle.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIAnimationCtrl.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIAutoSizeButton.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\DecorateBaseButton.h">
+      <Filter>Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\ControlDecorate.h">
+      <Filter>Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIPosAnimationButton.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UILayerControl.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UINewComboBoxEx.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIComboBoxLang.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\BmpData.h">
+      <Filter>Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIHtmlLabelEx.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UISuspended.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIMediator.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UISelectButton.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\WebPreviewBiz.h">
+      <Filter>Biz</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIFadeLayout.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIVisibleComposite.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\ShadowTextStyleObj.h">
+      <Filter>Style</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIDwmWindow.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UIGesture.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\IconToast.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\UISearchEdit.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\StringFormator.h">
+      <Filter>Biz</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommonUI\OptionPanel.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\UIClassifyTabLayout.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIEditEx.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIEditLayout.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UILoadingButton.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIMaskButton.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIRotateAnimation.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIShadowOptionLayout.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CommonUI.cpp">
+      <Filter>Soure Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WindowPtrMapImpl.cpp">
+      <Filter>Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIIndentifyWnd.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIDragImage.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIFigurePic.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UITrackerBox.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIRoundProgressBar.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Toast.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIAutoSizeCheckBox.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIMarqueeLabel.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIProgressBarEx.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DecorateBaseWindow.cpp">
+      <Filter>Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WndDecorate.cpp">
+      <Filter>Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DecorateBaseLayout.cpp">
+      <Filter>Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIScreenToolGroup.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIInteractOptionLayout.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIAnimationButton.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UILayoutButton.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIAssociateVisibleButton.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIWrapContentLayout.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WindowPtrRef.cpp">
+      <Filter>Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WindowPtrHolder.cpp">
+      <Filter>Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIHtmlLabelEx.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UILayoutTwinkle.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIAnimationCtrl.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIAutoSizeButton.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DecorateBaseButton.cpp">
+      <Filter>Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ControlDecorate.cpp">
+      <Filter>Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIPosAnimationButton.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UILayerControl.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UINewComboBoxEx.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIComboBoxLang.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIHtmlLabelEx.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIMediator.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UISuspended.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UISelectButton.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WebPreviewBiz.cpp">
+      <Filter>Biz</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIFadeLayout.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIVisibleComposite.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ShadowTextStyleObj.cpp">
+      <Filter>Style</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIDwmWindow.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIGesture.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IconToast.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UISearchEdit.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StringFormator.cpp">
+      <Filter>Biz</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OptionPanel.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

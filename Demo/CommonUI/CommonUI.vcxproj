@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Classflow_UnicodeRelease|Win32">
+      <Configuration>Classflow_UnicodeRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="UnicodeDebug|Win32">
+      <Configuration>UnicodeDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="UnicodeRelease|Win32">
+      <Configuration>UnicodeRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="正式版UnicodeRelease|Win32">
+      <Configuration>正式版UnicodeRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F4A903AC-CE95-4D2F-96B1-1266B4641292}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CommonUI</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='正式版UnicodeRelease|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Classflow_UnicodeRelease|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\101PPT\Config.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\101PPT\Config.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='正式版UnicodeRelease|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\101PPT\Config.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Classflow_UnicodeRelease|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\101PPT\Config.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="..\101PPT\Config.props" />
+    <Import Project="..\101PPT\Config.props" />
+    <Import Project="..\101PPT\Config.props" />
+    <Import Project="..\101PPT\Config.props" />
+    <Import Project="..\101PPT\Config.props" />
+    <Import Project="..\101PPT\Config.props" />
+    <Import Project="..\101PPT\Config.props" />
+    <Import Project="..\101PPT\Config.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>$(ProjectName)_ud</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)_u</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='正式版UnicodeRelease|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)_u</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Classflow_UnicodeRelease|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)_u</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(BinDir)\$(Configuration)\</OutDir>
+    <IntDir>$(TempDir)\$(TargetName)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_u</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;COMMONUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(SolutionDir)DirectUI\include;$(SolutionDir)SDK\EventBus\Include;$(SolutionDir)third-party\boost;.\include\CommonUI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>..\Lib\$(TargetName).lib</ImportLibrary>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib;$(SolutionDir)third-party\boost\lib\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;COMMONUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)DirectUI\include;$(SolutionDir)SDK\EventBus\Include;.\include\CommonUI;$(SolutionDir)third-party\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ImportLibrary>..\Lib\$(TargetName).lib</ImportLibrary>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib;$(SolutionDir)third-party\boost\lib\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='正式版UnicodeRelease|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;COMMONUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)DirectUI\include;$(SolutionDir)SDK\EventBus\Include;.\include\CommonUI;$(SolutionDir)third-party\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ImportLibrary>..\Lib\$(TargetName).lib</ImportLibrary>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib;$(SolutionDir)third-party\boost\lib\release</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Classflow_UnicodeRelease|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;COMMONUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)DirectUI\include;$(SolutionDir)SDK\EventBus\Include;.\include\CommonUI;$(SolutionDir)third-party\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ImportLibrary>..\Lib\$(TargetName).lib</ImportLibrary>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="include\CommonUI\BmpData.h" />
+    <ClInclude Include="include\CommonUI\CommonUI.h" />
+    <ClInclude Include="include\CommonUI\DecorateBaseButton.h" />
+    <ClInclude Include="include\CommonUI\DecorateBaseLayout.h" />
+    <ClInclude Include="include\CommonUI\DecorateBaseWindow.h" />
+    <ClInclude Include="include\CommonUI\ControlDecorate.h" />
+    <ClInclude Include="include\CommonUI\IconToast.h" />
+    <ClInclude Include="include\CommonUI\OptionPanel.h" />
+    <ClInclude Include="include\CommonUI\ShadowTextStyleObj.h" />
+    <ClInclude Include="include\CommonUI\StringFormator.h" />
+    <ClInclude Include="include\CommonUI\Toast.h" />
+    <ClInclude Include="include\CommonUI\UIAnimationCtrl.h" />
+    <ClInclude Include="include\CommonUI\UIAnimationButton.h" />
+    <ClInclude Include="include\CommonUI\UIAssociateVisibleButton.h" />
+    <ClInclude Include="include\CommonUI\UIAutoSizeButton.h" />
+    <ClInclude Include="include\CommonUI\UIAutoSizeCheckBox.h" />
+    <ClInclude Include="include\CommonUI\UIClassifyTabLayout.h" />
+    <ClInclude Include="include\CommonUI\UIComboBoxLang.h" />
+    <ClInclude Include="include\CommonUI\UIDragImage.h" />
+    <ClInclude Include="include\CommonUI\UIFadeLayout.h" />
+    <ClInclude Include="include\CommonUI\UIDwmWindow.h" />
+    <ClInclude Include="include\CommonUI\UIGesture.h" />
+    <ClInclude Include="include\CommonUI\UIHelper.hpp" />
+    <ClInclude Include="include\CommonUI\UIHtmlLabelEx.h" />
+    <ClInclude Include="include\CommonUI\UIInteractOptionLayout.h" />
+    <ClInclude Include="include\CommonUI\UIEditEx.h" />
+    <ClInclude Include="include\CommonUI\UIEditLayout.h" />
+    <ClInclude Include="include\CommonUI\UIFigurePic.h" />
+    <ClInclude Include="include\CommonUI\UIIndentifyWnd.h" />
+    <ClInclude Include="include\CommonUI\UILayerControl.h" />
+    <ClInclude Include="include\CommonUI\UILayoutButton.h" />
+    <ClInclude Include="include\CommonUI\UILayoutTwinkle.h" />
+    <ClInclude Include="include\CommonUI\UILoadingButton.h" />
+    <ClInclude Include="include\CommonUI\UIMarqueeLabel.h" />
+    <ClInclude Include="include\CommonUI\UIMaskButton.h" />
+    <ClInclude Include="include\CommonUI\UINewComboBoxEx.h" />
+    <ClInclude Include="include\CommonUI\UIMediator.h" />
+    <ClInclude Include="include\CommonUI\UIPosAnimationButton.h" />
+    <ClInclude Include="include\CommonUI\UIProgressBarEx.h" />
+    <ClInclude Include="include\CommonUI\UIRotateAnimation.h" />
+    <ClInclude Include="include\CommonUI\UIRoundProgressBar.h" />
+    <ClInclude Include="include\CommonUI\UISearchEdit.h" />
+    <ClInclude Include="include\CommonUI\UISelectButton.h" />
+    <ClInclude Include="include\CommonUI\UIShadowOptionLayout.h" />
+    <ClInclude Include="include\CommonUI\UIScreenToolGroup.h" />
+    <ClInclude Include="include\CommonUI\UISuspended.h" />
+    <ClInclude Include="include\CommonUI\UITrackerBox.h" />
+    <ClInclude Include="include\CommonUI\UIVisibleComposite.h" />
+    <ClInclude Include="include\CommonUI\UIWrapContentLayout.h" />
+    <ClInclude Include="include\CommonUI\WebPreviewBiz.h" />
+    <ClInclude Include="include\CommonUI\WindowPtrHolder.h" />
+    <ClInclude Include="include\CommonUI\WindowPtrMap.h" />
+    <ClInclude Include="include\CommonUI\WindowPtrMapImpl.h" />
+    <ClInclude Include="include\CommonUI\WindowPtrRef.h" />
+    <ClInclude Include="include\CommonUI\WndDecorate.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\CommonUI.cpp" />
+    <ClCompile Include="Source\DecorateBaseButton.cpp" />
+    <ClCompile Include="Source\DecorateBaseLayout.cpp" />
+    <ClCompile Include="Source\DecorateBaseWindow.cpp" />
+    <ClCompile Include="Source\ControlDecorate.cpp" />
+    <ClCompile Include="Source\IconToast.cpp" />
+    <ClCompile Include="Source\OptionPanel.cpp" />
+    <ClCompile Include="Source\ShadowTextStyleObj.cpp" />
+    <ClCompile Include="Source\StringFormator.cpp" />
+    <ClCompile Include="Source\Toast.cpp" />
+    <ClCompile Include="Source\UIAnimationCtrl.cpp" />
+    <ClCompile Include="Source\UIAnimationButton.cpp" />
+    <ClCompile Include="Source\UIAssociateVisibleButton.cpp" />
+    <ClCompile Include="Source\UIAutoSizeButton.cpp" />
+    <ClCompile Include="Source\UIAutoSizeCheckBox.cpp" />
+    <ClCompile Include="Source\UIComboBoxLang.cpp" />
+    <ClCompile Include="Source\UIDragImage.cpp" />
+    <ClCompile Include="Source\UIFadeLayout.cpp" />
+    <ClCompile Include="Source\UIDwmWindow.cpp" />
+    <ClCompile Include="Source\UIGesture.cpp" />
+    <ClCompile Include="Source\UIHtmlLabelEx.cpp" />
+    <ClCompile Include="Source\UIInteractOptionLayout.cpp" />
+    <ClCompile Include="Source\UIFigurePic.cpp" />
+    <ClCompile Include="Source\UIIndentifyWnd.cpp" />
+    <ClCompile Include="Source\UILayerControl.cpp" />
+    <ClCompile Include="Source\UILayoutButton.cpp" />
+    <ClCompile Include="Source\UILayoutTwinkle.cpp" />
+    <ClCompile Include="Source\UIMarqueeLabel.cpp" />
+    <ClCompile Include="Source\UINewComboBoxEx.cpp" />
+    <ClCompile Include="Source\UIMediator.cpp" />
+    <ClCompile Include="Source\UIPosAnimationButton.cpp" />
+    <ClCompile Include="Source\UIRoundProgressBar.cpp" />
+    <ClCompile Include="Source\UIScreenToolGroup.cpp" />
+    <ClCompile Include="Source\UISearchEdit.cpp" />
+    <ClCompile Include="Source\UISuspended.cpp" />
+    <ClCompile Include="Source\UISelectButton.cpp" />
+    <ClCompile Include="Source\UITrackerBox.cpp" />
+    <ClCompile Include="Source\UIClassifyTabLayout.cpp" />
+    <ClCompile Include="Source\UIEditEx.cpp" />
+    <ClCompile Include="Source\UIEditLayout.cpp" />
+    <ClCompile Include="Source\UILoadingButton.cpp" />
+    <ClCompile Include="Source\UIMaskButton.cpp" />
+    <ClCompile Include="Source\UIProgressBarEx.cpp" />
+    <ClCompile Include="Source\UIRotateAnimation.cpp" />
+    <ClCompile Include="Source\UIShadowOptionLayout.cpp" />
+    <ClCompile Include="Source\UIVisibleComposite.cpp" />
+    <ClCompile Include="Source\UIWrapContentLayout.cpp" />
+    <ClCompile Include="Source\WebPreviewBiz.cpp" />
+    <ClCompile Include="Source\WindowPtrHolder.cpp" />
+    <ClCompile Include="Source\WindowPtrMapImpl.cpp" />
+    <ClCompile Include="Source\WindowPtrRef.cpp" />
+    <ClCompile Include="Source\WndDecorate.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='正式版UnicodeRelease|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

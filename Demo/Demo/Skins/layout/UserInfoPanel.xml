@@ -1,0 +1,61 @@
+﻿<skin version="1.0" >
+  <Style>
+    <Style id="UserInfoPanelStyle">
+      <Layout id="basic_layout"  pos="LTRB|28,0,28,0" mode="vertfill" spaceY="10">
+
+        <Control pos="LT|0,0,0,60" />
+        
+        <Layout pos="LTRT|0,0,0,38" mode="vertfill">
+          <Layout pos="LTRB|0,0,0,0" mode="horzfill" inset="0,6,0,6">
+            <Label  pos="LTLB|0,0,96,0" txt.halign="right" txt.valign="center" text="用户id:" txt.font="font14" txt.color="#N04" txt.endellipsis="1" txt.singleline="0"/>
+            <Control pos="LT|0,0,20,0"/>
+            <Label id="basic_lable_userid" pos="LTRB|0,0,0,0" text="" txt.font="font14" txt.valign="center" txt.halign="left" txt.endellipsis="1" txt.singleline="0" txt.color="#N07"/>
+          </Layout>
+          <Control style="FillColor" color.fillcolor="#L02" pos="LBRB|0,1,0,0"/>
+        </Layout>
+
+        <Layout pos="LTRT|0,0,0,38" mode="vertfill">
+          <Layout pos="LTRB|0,0,0,0" mode="horzfill" inset="0,6,0,6">
+            <Label  pos="LTLB|0,0,96,0" txt.halign="right" txt.valign="center" text="用户名:" txt.font="font14" txt.color="#N04" txt.endellipsis="1" txt.singleline="0"/>
+            <Control pos="LT|0,0,20,0"/>
+            <Label id="basic_lable_username" pos="LTRB|0,0,0,0" text="" txt.font="font14" txt.valign="center" txt.halign="left" txt.endellipsis="1" txt.singleline="0" txt.color="#N07"/>
+          </Layout>
+          <Control style="FillColor" color.fillcolor="#L02" pos="LBRB|0,1,0,0"/>
+        </Layout>
+
+        <Layout pos="LTRT|0,0,0,38" mode="vertfill">
+          <Layout pos="LTRB|0,0,0,0" mode="horzfill" inset="0,6,0,6">
+            <Label  pos="LTLB|0,0,96,0" txt.halign="right" txt.valign="center" text="用户昵称:" txt.font="font14" txt.color="#N04" txt.endellipsis="1" txt.singleline="0"/>
+            <Control pos="LT|0,0,20,0"/>
+            <Label id="basic_lable_nickname" pos="LTRB|0,0,0,0" text="" txt.font="font14" txt.valign="center" txt.halign="left" txt.endellipsis="1" txt.singleline="0" txt.color="#N07"/>
+          </Layout>
+          <Control style="FillColor" color.fillcolor="#L02" pos="LBRB|0,1,0,0"/>
+        </Layout>
+
+        <Layout pos="LTRT|0,0,0,38" mode="vertfill">
+          <Layout pos="LTRB|0,0,0,0" mode="horzfill" inset="0,6,0,6">
+            <Label  pos="LTLB|0,0,96,0" txt.halign="right" txt.valign="center" text="生日:" txt.font="font14" txt.color="#N04" txt.endellipsis="1" txt.singleline="0"/>
+            <Control pos="LT|0,0,20,0"/>
+            <Label id="basic_lable_birthday" pos="LTRB|0,0,0,0" text="" txt.font="font14" txt.valign="center" txt.halign="left" txt.endellipsis="1" txt.singleline="0" txt.color="#N07"/>
+          </Layout>
+          <Control style="FillColor" color.fillcolor="#L02" pos="LBRB|0,1,0,0"/>
+        </Layout>
+
+
+        <Control />
+
+        <!--other login setting check end-->
+        <Layout mode="horzfill" pos="9|0,0,0,70">
+          <Button id="btn_loginout" style="ImageButton" pos="LT|-1,-1,266,40" bk.image="#btn_uc_biz"
+                text="退出登录" txt.font="font18" txt.color="#Color_White"
+                over_txt.font="font18" over_txt.color="#Color_White"
+                push_txt.font="font18" push_txt.color="#Color_White"/>
+        </Layout>
+
+      </Layout>
+    </Style>
+
+
+  </Style>
+</skin>
+

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<skin version="1.0" load="1">
+	<Image>
+		<!--框架图片，勿动-->
+		<Image id="button"            path="|R5|S6,6,6,6|framework#common\button.png" />
+		<Image id="button_mask"       path="|U|C5|S2,2,2,2|framework#common\button_mask.png" />
+		<Image id="button_mask_hot"   path="|U|S2,2,2,2|framework#common\button_mask_hot.png"/>
+		<Image id="button_mask_down"  path="|U|S2,2,2,2|framework#common\button_mask_down.png"/>
+		<Image id="maximizebox"       path="|R8|framework#common\button_maximize.png" />
+		<Image id="minimizebox"       path="|R4|framework#common\button_minimize.png" />
+		<Image id="closebox"          path="|R4|framework#common\button_close.png" />
+		<Image id="tabbkg"            path="|U|S1,0,1,0|framework#common\tab_bkg.png" />
+		<Image id="tabbutton"         path="|U|C3|S0,0,3,0|framework#common\tab_btn.png" />
+		<Image id="arrow"             path="framework#common\arrow.png"/>
+		<Image id="arrowext"          path="framework#common\arrow_ext.png"/>
+		<Image id="defgroupnode"      path="|C4|framework#common\tree_group_arrow.png"/>
+		<Image id="pic_zoom"          path="|C2|framework#common\pic_zoom.png" />
+		<Image id="pic_dot"           path="framework#common\pic_dot.png" />
+		<Image id="edit"              path="|U|C2|S6,6,6,6|framework#common\edit.png" />
+		<Image id="comboxarrow"       path="|U|C3|S2,2,2,2|framework#common\combox_arrow.png" />
+		<Image id="checkbox"          path="|R6|framework#common\checkbox.png" />
+		<Image id="radio"             path="|R4|S2,2,2,2|framework#common\radio.png" />
+		<Image id="layoutbk"          path="|U|S1,1,1,1|framework#common\layout_bk.png"/>
+		<Image id="listbkg"           path="|U|S2,2,2,2|framework#common\list_bkg.png"  />
+		<Image id="listitem"          path="|C2|S2,2,2,2|framework#common\list_item.png"/>
+		<Image id="listitembkg"       path="|C2|S2,2,2,2|framework#common\list_item_bkg.png"/>
+		<Image id="listheaderbkg"     path="|U|framework#common\list_header_bkg.png"  />
+		<Image id="listheadersep"     path="|U|framework#common\list_headersep.png"  />
+		<Image id="listbound"         path="|U|S2,2,2,2|framework#common\bound_bkg.png"/>
+		<Image id="splitter"          path="framework#common\splitter.png"/>
+		<Image id="pushedbkg"         path="|S2,2,2,2|framework#common\toolitem_pushed.png"/>
+		<Image id="menubkg"           path="|U|S32,9,9,9|framework#common\menu_bkg.png"/>
+		<Image id="menusel"           path="|U|S2,2,2,2|framework#common\menu_sel.png"/>
+		<Image id="menuseperator"     path="|U|S1,1,1,1|framework#common\menu_seperator.png"/>
+		<Image id="menucheck"         path="|U|S2,2,2,2|framework#common\menu_check.png"/>
+		<Image id="menuleftmask"      path="|U|C3|S2,2,2,2|framework#common\menu_mask_left.png"/>
+		<Image id="menurightmask"     path="|U|C3|S2,2,2,2|framework#common\menu_mask_right.png"/>
+		<Image id="menuleftmask"      path="|U|C3|S2,2,2,2|framework#common\menu_mask_right.png" language="AR"/>
+		<Image id="menurightmask"     path="|U|C3|S2,2,2,2|framework#common\menu_mask_left.png" language="AR"/>
+		<Image id="menuarrow"         path="|U|framework#common\menu_arrow.png"/>
+		<Image id="shadow"            path="framework#common\shadow.png"/>
+		<Image id="textglow"          path="framework#common\text_glow.png"/>
+		<Image id="tooltipbkgBL"      path="|S48,8,8,8|framework#common\tooltip_bkg_bl.png"/>
+		<Image id="tooltipbkgBR"      path="|S8,8,48,8|framework#common\tooltip_bkg_br.png"/>
+		<Image id="tooltipbkgLB"      path="|S8,8,8,20|framework#common\tooltip_bkg_lb.png"/>
+		<Image id="tooltipbkgLT"      path="|S8,20,8,8|framework#common\tooltip_bkg_lt.png"/>
+		<Image id="tooltipbkgRB"      path="|S8,8,8,20|framework#common\tooltip_bkg_rb.png"/>
+		<Image id="tooltipbkgRT"      path="|S8,20,8,8|framework#common\tooltip_bkg_rt.png"/>
+		<Image id="tooltipbkgTL"      path="|S48,8,8,8|framework#common\tooltip_bkg_tl.png"/>
+		<Image id="tooltipbkgTR"      path="|S8,8,48,8|framework#common\tooltip_bkg_tr.png"/>
+	</Image>
+
+	<Font>
+		<Font id ="normal"  face="default" height ="12"/>
+		<Font id ="bold"     face="default" height ="12" bold ="1"/>
+		<Font id ="underline" face="default" height ="12" underline="1"/>
+		<Font id ="password"   face="Tahoma" height ="14"/>
+		<Font id ="small"    face="default" height ="11" />
+		<Font id ="10"  face="default" height ="13" bold ="1"/>
+		<Font id ="11"  face="default" height ="14"/>
+		<Font id ="12"  face="default" height ="13" bold ="1"/>
+		<Font id ="14" face="default" height ="12"/>
+		<Font id ="tiny"  face="default" height ="11"/>
+		<Font id ="strikeout"  face="default" height ="12" strikeout="1"/>
+		<Font id ="underline_bold" face="default" height ="12" underline="1" bold ="1" />
+	</Font>
+
+  <Global>
+    <Global id ="vscrollbar"  value="6,0,0,0"/> <!--垂直滚动大小-->
+    <Global id ="hscrollbar"  value="0,10,0,0"/><!--水平滚动大小-->
+    <Global id ="shadow"      value="18,12,18,22"/> <!--窗口阴影边缘大小-->
+  </Global>
+</skin>
+

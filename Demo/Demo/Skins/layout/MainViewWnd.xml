@@ -1,0 +1,69 @@
+﻿<skin version="1.0" >
+    <Window id="MainViewWindow" minWidth="500" minHeight="550" move="1" resize="0" title="" store="0">
+      <Layout pos="LT|0,0,500,550" style="BkWindow">
+      <Button id="btn_close" pos="RT|10,10,36,36"  bk.image="#bk_close36" bk.imgseq="0,1,2,1,1" bk.paintmode="center"/>
+      <Layout mode="vertfill" pos="LTRB|28,50,28,0">
+
+        <Button id="btn_LoginPanel" pos="LT|0,0,266,40" style="ImageButton" bk.image="#btn_uc_biz" bk.imgseq="0,1,2,1,1" bk.paintmode="center"
+                text="登录页面" txt.font="font18" txt.color="#Color_White"
+                    over_txt.font="font18" over_txt.color="#Color_White"
+                    push_txt.font="font18" push_txt.color="#Color_White"/>
+
+        <Button id="btn_reg" pos="LT|0,0,266,40" style="ImageButton" bk.image="#btn_uc_biz" bk.imgseq="0,1,2,1,1" bk.paintmode="center"
+                text="使用注册表" txt.font="font18" txt.color="#Color_White"
+                    over_txt.font="font18" over_txt.color="#Color_White"
+                    push_txt.font="font18" push_txt.color="#Color_White"/>
+
+        <Button id="btn_socketserver" pos="LT|0,0,266,40" style="ImageButton" bk.image="#btn_uc_biz" bk.imgseq="0,1,2,1,1" bk.paintmode="center"
+                text="socket TCP 服务端" txt.font="font18" txt.color="#Color_White"
+                    over_txt.font="font18" over_txt.color="#Color_White"
+                    push_txt.font="font18" push_txt.color="#Color_White"/>
+
+        <Button id="btn_socketclient" pos="LT|0,0,266,40" style="ImageButton" bk.image="#btn_uc_biz" bk.imgseq="0,1,2,1,1" bk.paintmode="center"
+                text="socket TCP 客户端" txt.font="font18" txt.color="#Color_White"
+                    over_txt.font="font18" over_txt.color="#Color_White"
+                    push_txt.font="font18" push_txt.color="#Color_White"/>
+
+        <Button id="btn_udpserver" pos="LT|0,0,266,40" style="ImageButton" bk.image="#btn_uc_biz" bk.imgseq="0,1,2,1,1" bk.paintmode="center"
+                text="socket UDP 服务端" txt.font="font18" txt.color="#Color_White"
+                    over_txt.font="font18" over_txt.color="#Color_White"
+                    push_txt.font="font18" push_txt.color="#Color_White"/>
+
+        <Button id="btn_udpclient" pos="LT|0,0,266,40" style="ImageButton" bk.image="#btn_uc_biz" bk.imgseq="0,1,2,1,1" bk.paintmode="center"
+                text="socket UDP 客户端" txt.font="font18" txt.color="#Color_White"
+                    over_txt.font="font18" over_txt.color="#Color_White"
+                    push_txt.font="font18" push_txt.color="#Color_White"/>
+
+        <Button id="btn_fun1" pos="LT|0,0,266,40" style="ImageButton" bk.image="#btn_uc_biz" bk.imgseq="0,1,2,1,1" bk.paintmode="center"
+                text="算数仿函数" txt.font="font18" txt.color="#Color_White"
+                    over_txt.font="font18" over_txt.color="#Color_White"
+                    push_txt.font="font18" push_txt.color="#Color_White"/>
+
+        <Button id="btn_fun2" pos="LT|0,0,266,40" style="ImageButton" bk.image="#btn_uc_biz" bk.imgseq="0,1,2,1,1" bk.paintmode="center"
+                text="关系仿函数" txt.font="font18" txt.color="#Color_White"
+                    over_txt.font="font18" over_txt.color="#Color_White"
+                    push_txt.font="font18" push_txt.color="#Color_White"/>
+
+        <Button id="btn_fun3" pos="LT|0,0,266,40" style="ImageButton" bk.image="#btn_uc_biz" bk.imgseq="0,1,2,1,1" bk.paintmode="center"
+                text="逻辑仿函数" txt.font="font18" txt.color="#Color_White"
+                    over_txt.font="font18" over_txt.color="#Color_White"
+                    push_txt.font="font18" push_txt.color="#Color_White"/>
+
+      </Layout>
+        
+    </Layout>
+  </Window>
+  
+  <Style>
+    
+    <Style id="ImageButton">
+      <Image id="bk" state="all" imgseq="0,1,2,3"/>
+      <Text id="txt" state="normal" pos="LTRB|0,0,0,0" font="font14" halign="center" valign="center" color="#Color_White"/>
+      <Text id="over_txt" state="over" pos="LTRB|0,0,0,0" font="font14" halign="center" valign="center" color="#UcBtnHoverColor"/>
+      <Text id="push_txt" state="down|focus" pos="LTRB|0,0,0,0" font="font14" halign="center" valign="center" color="#UcBtnNormalColor"/>
+    </Style>
+    
+  </Style>
+
+</skin>
+

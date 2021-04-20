@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<skin version="1.0" load="1" type="string" language="AR">
+	<String>
+		<String id="EDIT_MENU">تعديل القائمة</String>
+		<String id="ALL_SELECT">حدد الكل</String>
+		<String id="SAVE_AS_BTN">حفظ باسم...</String>
+		<String id="ADD_TO_FACE">إضافة إلى التعبيرات</String>
+		<String id="EDIT_SCRAWL">تعديل &amp; شخبطة</String>
+		<String id="OPEN_DIR_CONTAIN">فتح المجلد</String>
+		<String id="SELECT_ALL">اختيار الكل</String>
+		<String id="CUT">قص</String>
+		<String id="COPY">نسخ</String>
+		<String id="PASTE">لصق</String>
+		<String id="DOUBLE_CLICK_SEE_PIC">انقر نقرا مزدوجا فوق عرض المحتوى الأصلي</String>
+		<String id="CANCEL">إلغاء</String>
+		<String id="OK">حدد</String>
+		<String id="LIMIT_INPUT">أدخل الحروف عن طريق الخطأ، من فضلك ادخل</String>
+		<String id="LIMIT_NUMBER">رقمي</String>
+		<String id="LIMIT_LETTER">رسالة</String>
+		<String id="LIMIT_CHAR">حرف الصينية</String>
+		<String id="LIMIT_BLANK">فراغ</String>
+		<String id="LIMIT_NOINPUT">لا تدخل</String>
+		<String id="INPUT_ERROR">يرجي إدخال أرقام أو حروف انجليزية</String>
+		<String id="SEARCHKEYNOTEMPTY">كلمات البحث لا يمكن أن تكون فارغة</String>
+	</String>
+</skin>
+
+

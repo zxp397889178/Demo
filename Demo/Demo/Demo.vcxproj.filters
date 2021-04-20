@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{39c10b09-c7b3-49d5-a55f-0a372bd90b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Biz">
+      <UniqueIdentifier>{c56a9561-5b0d-4029-8ba7-b481e5c590ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{188c5cdd-92a1-4886-854d-a253525cbd14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\UserCenter">
+      <UniqueIdentifier>{e9e735bd-5f82-43fb-91cf-2ed28408c7f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skins">
+      <UniqueIdentifier>{5ab6c926-26a6-40a1-ba19-cefaa18cee92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skins\res">
+      <UniqueIdentifier>{52fee640-8e4f-4e8e-99bb-1a12d81e78eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skins\Layout">
+      <UniqueIdentifier>{0f85d34c-38dd-4289-b0d0-44f80315796b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{c3afe56d-6cc4-4838-b6f2-b82dd7219f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\ShowTextWnd">
+      <UniqueIdentifier>{b88cf623-b205-49af-90ae-e250e6eff045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{5cfca054-4fb2-4d1c-a9d7-6545bc6e606c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="View\MainWindow.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Common.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\SqliteManager.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="View\MainWnd.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Crypto_Wrapper.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="View\UserCenter\LoginWnd.h">
+      <Filter>View\UserCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="View\UIEditEx.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\UIEditLayout.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Event\UserCenterEventModel.hpp">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Biz\UserLoginBiz.h">
+      <Filter>Biz</Filter>
+    </ClInclude>
+    <ClInclude Include="Biz\UserCenterBiz.h">
+      <Filter>Biz</Filter>
+    </ClInclude>
+    <ClInclude Include="Event\LoginEvent.hpp">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="View\UserCenter\UcPullDownWnd.h">
+      <Filter>View\UserCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="Biz\UserLogin.h">
+      <Filter>Biz</Filter>
+    </ClInclude>
+    <ClInclude Include="View\MainViewWnd.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\ShowText\ShowTextWnd.h">
+      <Filter>View\ShowTextWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ThreadPool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="View\MainWindow.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Common.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\SqliteManager.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="View\MainWnd.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Crypto_Wrapper.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="View\UserCenter\LoginWnd.cpp">
+      <Filter>View\UserCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="View\UIEditEx.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\UIEditLayout.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="Biz\UserLoginBiz.cpp">
+      <Filter>Biz</Filter>
+    </ClCompile>
+    <ClCompile Include="Biz\UserCenterBiz.cpp">
+      <Filter>Biz</Filter>
+    </ClCompile>
+    <ClCompile Include="View\UserCenter\UcPullDownWnd.cpp">
+      <Filter>View\UserCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="Biz\UserLogin.cpp">
+      <Filter>Biz</Filter>
+    </ClCompile>
+    <ClCompile Include="View\MainViewWnd.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\ShowText\ShowTextWnd.cpp">
+      <Filter>View\ShowTextWnd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="101OfflineResImport.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="101OfflineResImport.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Skins\layout\LoginPanel.xml">
+      <Filter>Skins\Layout</Filter>
+    </Xml>
+    <Xml Include="Skins\res\res.xml">
+      <Filter>Skins\res</Filter>
+    </Xml>
+    <Xml Include="Skins\layout\UserInfoPanel.xml">
+      <Filter>Skins\Layout</Filter>
+    </Xml>
+    <Xml Include="Skins\layout\PullDownWnd.xml">
+      <Filter>Skins\Layout</Filter>
+    </Xml>
+    <Xml Include="Skins\layout\MainViewWnd.xml">
+      <Filter>Skins\Layout</Filter>
+    </Xml>
+    <Xml Include="Skins\layout\ShowTextWnd.xml">
+      <Filter>Skins\Layout</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

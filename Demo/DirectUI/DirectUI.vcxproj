@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Classflow_UnicodeRelease|Win32">
+      <Configuration>Classflow_UnicodeRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MTUnicodeDebug|Win32">
+      <Configuration>MTUnicodeDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MTUnicodeRelease|Win32">
+      <Configuration>MTUnicodeRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="UnicodeDebug|Win32">
+      <Configuration>UnicodeDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="UnicodeRelease|Win32">
+      <Configuration>UnicodeRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="正式版UnicodeRelease|Win32">
+      <Configuration>正式版UnicodeRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E6451956-FFD6-488F-A210-E43988CB2783}</ProjectGuid>
+    <RootNamespace>My91uSkin2</RootNamespace>
+    <Keyword>MFCDLLProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='正式版UnicodeRelease|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Classflow_UnicodeRelease|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MTUnicodeRelease|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MTUnicodeDebug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="build_option\91U_option.props" />
+    <Import Project="..\101PPT\Config.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='正式版UnicodeRelease|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="build_option\91U_option.props" />
+    <Import Project="..\101PPT\Config.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Classflow_UnicodeRelease|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="build_option\91U_option.props" />
+    <Import Project="..\101PPT\Config.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='MTUnicodeRelease|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="build_option\91U_option.props" />
+    <Import Project="..\101PPT\Config.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\101PPT\Config.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='MTUnicodeDebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\101PPT\Config.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <CodeAnalysisRules>+!Microsoft.Design#CA1012;+!Microsoft.Design#CA2210;+!Microsoft.Design#CA1040;+!Microsoft.Design#CA1005;+!Microsoft.Design#CA1020;+!Microsoft.Design#CA1021;+!Microsoft.Design#CA1010;+!Microsoft.Design#CA1011;+!Microsoft.Design#CA1009;+!Microsoft.Design#CA1050;+!Microsoft.Design#CA1026;+!Microsoft.Design#CA1019;+!Microsoft.Design#CA1031;+!Microsoft.Design#CA1047;+!Microsoft.Design#CA1000;+!Microsoft.Design#CA1048;+!Microsoft.Design#CA1051;+!Microsoft.Design#CA1002;+!Microsoft.Design#CA1061;+!Microsoft.Design#CA1006;+!Microsoft.Design#CA1046;+!Microsoft.Design#CA1045;+!Microsoft.Design#CA1065;+!Microsoft.Design#CA1038;+!Microsoft.Design#CA1008;+!Microsoft.Design#CA1028;+!Microsoft.Design#CA1064;+!Microsoft.Design#CA1004;+!Microsoft.Design#CA1035;+!Microsoft.Design#CA1063;+!Microsoft.Design#CA1032;+!Microsoft.Design#CA1023;+!Microsoft.Design#CA1033;+!Microsoft.Design#CA1039;+!Microsoft.Design#CA1016;+!Microsoft.Design#CA1014;+!Microsoft.Design#CA1017;+!Microsoft.Design#CA1018;+!Microsoft.Design#CA1027;+!Microsoft.Design#CA1059;+!Microsoft.Design#CA1060;+!Microsoft.Design#CA1034;+!Microsoft.Design#CA1013;+!Microsoft.Design#CA1036;+!Microsoft.Design#CA1044;+!Microsoft.Design#CA1041;+!Microsoft.Design#CA1025;+!Microsoft.Design#CA1052;+!Microsoft.Design#CA1053;+!Microsoft.Design#CA1057;+!Microsoft.Design#CA1058;+!Microsoft.Design#CA1001;+!Microsoft.Design#CA1049;+!Microsoft.Design#CA1054;+!Microsoft.Design#CA1056;+!Microsoft.Design#CA1055;+!Microsoft.Design#CA1030;+!Microsoft.Design#CA1003;+!Microsoft.Design#CA1007;+!Microsoft.Design#CA1043;+!Microsoft.Design#CA1024;+!Microsoft.Globalization#CA1301;+!Microsoft.Globalization#CA1302;+!Microsoft.Globalization#CA1308;+!Microsoft.Globalization#CA1306;+!Microsoft.Globalization#CA1304;+!Microsoft.Globalization#CA1305;+!Microsoft.Globalization#CA2101;+!Microsoft.Globalization#CA1300;+!Microsoft.Globalization#CA1307;+!Microsoft.Globalization#CA1309;+!Microsoft.Interoperability#CA1403;+!Microsoft.Interoperability#CA1406;+!Microsoft.Interoperability#CA1413;+!Microsoft.Interoperability#CA1402;+!Microsoft.Interoperability#CA1407;+!Microsoft.Interoperability#CA1404;+!Microsoft.Interoperability#CA1410;+!Microsoft.Interoperability#CA1411;+!Microsoft.Interoperability#CA1405;+!Microsoft.Interoperability#CA1409;+!Microsoft.Interoperability#CA1415;+!Microsoft.Interoperability#CA1408;+!Microsoft.Interoperability#CA1414;+!Microsoft.Interoperability#CA1412;+!Microsoft.Interoperability#CA1400;+!Microsoft.Interoperability#CA1401;+!Microsoft.Maintainability#CA1506;+!Microsoft.Maintainability#CA1502;+!Microsoft.Maintainability#CA1501;+!Microsoft.Maintainability#CA1505;+!Microsoft.Maintainability#CA1504;+!Microsoft.Maintainability#CA1500;+!Microsoft.Mobility#CA1600;+!Microsoft.Mobility#CA1601;+!Microsoft.Naming#CA1702;+!Microsoft.Naming#CA1700;+!Microsoft.Naming#CA1712;+!Microsoft.Naming#CA1713;+!Microsoft.Naming#CA1714;+!Microsoft.Naming#CA1709;+!Microsoft.Naming#CA1704;+!Microsoft.Naming#CA1708;+!Microsoft.Naming#CA1715;+!Microsoft.Naming#CA1710;+!Microsoft.Naming#CA1720;+!Microsoft.Naming#CA1707;+!Microsoft.Naming#CA1722;+!Microsoft.Naming#CA1711;+!Microsoft.Naming#CA1716;+!Microsoft.Naming#CA1717;+!Microsoft.Naming#CA1725;+!Microsoft.Naming#CA1719;+!Microsoft.Naming#CA1721;+!Microsoft.Naming#CA1701;+!Microsoft.Naming#CA1703;+!Microsoft.Naming#CA1724;+!Microsoft.Naming#CA1726;+!Microsoft.Performance#CA1809;+!Microsoft.Performance#CA1811;+!Microsoft.Performance#CA1812;+!Microsoft.Performance#CA1813;+!Microsoft.Performance#CA1823;+!Microsoft.Performance#CA1800;+!Microsoft.Performance#CA1805;+!Microsoft.Performance#CA1810;+!Microsoft.Performance#CA1824;+!Microsoft.Performance#CA1822;+!Microsoft.Performance#CA1815;+!Microsoft.Performance#CA1814;+!Microsoft.Performance#CA1819;+!Microsoft.Performance#CA1821;+!Microsoft.Performance#CA1804;+!Microsoft.Performance#CA1820;+!Microsoft.Performance#CA1802;+!Microsoft.Portability#CA1903;+!Microsoft.Portability#CA1901;+!Microsoft.Portability#CA1900;+!Microsoft.Reliability#CA2001;+!Microsoft.Reliability#CA2002;+!Microsoft.Reliability#CA2003;+!Microsoft.Reliability#CA2004;+!Microsoft.Reliability#CA2006;+!Microsoft.Security#CA2116;+!Microsoft.Security#CA2117;+!Microsoft.Security#CA2105;+!Microsoft.Security#CA2115;+!Microsoft.Security#CA2102;+!Microsoft.Security#CA2104;+!Microsoft.Security#CA2122;+!Microsoft.Security#CA2114;+!Microsoft.Security#CA2123;+!Microsoft.Security#CA2111;+!Microsoft.Security#CA2108;+!Microsoft.Security#CA2107;+!Microsoft.Security#CA2103;+!Microsoft.Security#CA2118;+!Microsoft.Security#CA2109;+!Microsoft.Security#CA2119;+!Microsoft.Security#CA2106;+!Microsoft.Security#CA2112;+!Microsoft.Security#CA2120;+!Microsoft.Security#CA2121;+!Microsoft.Security#CA2126;+!Microsoft.Security#CA2124;+!Microsoft.Security#CA2127;+!Microsoft.Security#CA2128;+!Microsoft.Security#CA2129;+!Microsoft.Usage#CA2243;+!Microsoft.Usage#CA2236;+!Microsoft.Usage#CA1816;+!Microsoft.Usage#CA2227;+!Microsoft.Usage#CA2213;+!Microsoft.Usage#CA2216;+!Microsoft.Usage#CA2214;+!Microsoft.Usage#CA2222;+!Microsoft.Usage#CA1806;+!Microsoft.Usage#CA2217;+!Microsoft.Usage#CA2212;+!Microsoft.Usage#CA2219;+!Microsoft.Usage#CA2201;+!Microsoft.Usage#CA2228;+!Microsoft.Usage#CA2221;+!Microsoft.Usage#CA2220;+!Microsoft.Usage#CA2240;+!Microsoft.Usage#CA2229;+!Microsoft.Usage#CA2238;+!Microsoft.Usage#CA2207;+!Microsoft.Usage#CA2208;+!Microsoft.Usage#CA2235;+!Microsoft.Usage#CA2237;+!Microsoft.Usage#CA2232;+!Microsoft.Usage#CA2223;+!Microsoft.Usage#CA2211;+!Microsoft.Usage#CA2233;+!Microsoft.Usage#CA2225;+!Microsoft.Usage#CA2226;+!Microsoft.Usage#CA2231;+!Microsoft.Usage#CA2224;+!Microsoft.Usage#CA2218;+!Microsoft.Usage#CA2234;+!Microsoft.Usage#CA2239;+!Microsoft.Usage#CA2200;+!Microsoft.Usage#CA1801;+!Microsoft.Usage#CA2242;+!Microsoft.Usage#CA2205;+!Microsoft.Usage#CA2230</CodeAnalysisRules>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <TargetName>$(ProjectName)_ud</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MTUnicodeDebug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <CodeAnalysisRules>+!Microsoft.Design#CA1012;+!Microsoft.Design#CA2210;+!Microsoft.Design#CA1040;+!Microsoft.Design#CA1005;+!Microsoft.Design#CA1020;+!Microsoft.Design#CA1021;+!Microsoft.Design#CA1010;+!Microsoft.Design#CA1011;+!Microsoft.Design#CA1009;+!Microsoft.Design#CA1050;+!Microsoft.Design#CA1026;+!Microsoft.Design#CA1019;+!Microsoft.Design#CA1031;+!Microsoft.Design#CA1047;+!Microsoft.Design#CA1000;+!Microsoft.Design#CA1048;+!Microsoft.Design#CA1051;+!Microsoft.Design#CA1002;+!Microsoft.Design#CA1061;+!Microsoft.Design#CA1006;+!Microsoft.Design#CA1046;+!Microsoft.Design#CA1045;+!Microsoft.Design#CA1065;+!Microsoft.Design#CA1038;+!Microsoft.Design#CA1008;+!Microsoft.Design#CA1028;+!Microsoft.Design#CA1064;+!Microsoft.Design#CA1004;+!Microsoft.Design#CA1035;+!Microsoft.Design#CA1063;+!Microsoft.Design#CA1032;+!Microsoft.Design#CA1023;+!Microsoft.Design#CA1033;+!Microsoft.Design#CA1039;+!Microsoft.Design#CA1016;+!Microsoft.Design#CA1014;+!Microsoft.Design#CA1017;+!Microsoft.Design#CA1018;+!Microsoft.Design#CA1027;+!Microsoft.Design#CA1059;+!Microsoft.Design#CA1060;+!Microsoft.Design#CA1034;+!Microsoft.Design#CA1013;+!Microsoft.Design#CA1036;+!Microsoft.Design#CA1044;+!Microsoft.Design#CA1041;+!Microsoft.Design#CA1025;+!Microsoft.Design#CA1052;+!Microsoft.Design#CA1053;+!Microsoft.Design#CA1057;+!Microsoft.Design#CA1058;+!Microsoft.Design#CA1001;+!Microsoft.Design#CA1049;+!Microsoft.Design#CA1054;+!Microsoft.Design#CA1056;+!Microsoft.Design#CA1055;+!Microsoft.Design#CA1030;+!Microsoft.Design#CA1003;+!Microsoft.Design#CA1007;+!Microsoft.Design#CA1043;+!Microsoft.Design#CA1024;+!Microsoft.Globalization#CA1301;+!Microsoft.Globalization#CA1302;+!Microsoft.Globalization#CA1308;+!Microsoft.Globalization#CA1306;+!Microsoft.Globalization#CA1304;+!Microsoft.Globalization#CA1305;+!Microsoft.Globalization#CA2101;+!Microsoft.Globalization#CA1300;+!Microsoft.Globalization#CA1307;+!Microsoft.Globalization#CA1309;+!Microsoft.Interoperability#CA1403;+!Microsoft.Interoperability#CA1406;+!Microsoft.Interoperability#CA1413;+!Microsoft.Interoperability#CA1402;+!Microsoft.Interoperability#CA1407;+!Microsoft.Interoperability#CA1404;+!Microsoft.Interoperability#CA1410;+!Microsoft.Interoperability#CA1411;+!Microsoft.Interoperability#CA1405;+!Microsoft.Interoperability#CA1409;+!Microsoft.Interoperability#CA1415;+!Microsoft.Interoperability#CA1408;+!Microsoft.Interoperability#CA1414;+!Microsoft.Interoperability#CA1412;+!Microsoft.Interoperability#CA1400;+!Microsoft.Interoperability#CA1401;+!Microsoft.Maintainability#CA1506;+!Microsoft.Maintainability#CA1502;+!Microsoft.Maintainability#CA1501;+!Microsoft.Maintainability#CA1505;+!Microsoft.Maintainability#CA1504;+!Microsoft.Maintainability#CA1500;+!Microsoft.Mobility#CA1600;+!Microsoft.Mobility#CA1601;+!Microsoft.Naming#CA1702;+!Microsoft.Naming#CA1700;+!Microsoft.Naming#CA1712;+!Microsoft.Naming#CA1713;+!Microsoft.Naming#CA1714;+!Microsoft.Naming#CA1709;+!Microsoft.Naming#CA1704;+!Microsoft.Naming#CA1708;+!Microsoft.Naming#CA1715;+!Microsoft.Naming#CA1710;+!Microsoft.Naming#CA1720;+!Microsoft.Naming#CA1707;+!Microsoft.Naming#CA1722;+!Microsoft.Naming#CA1711;+!Microsoft.Naming#CA1716;+!Microsoft.Naming#CA1717;+!Microsoft.Naming#CA1725;+!Microsoft.Naming#CA1719;+!Microsoft.Naming#CA1721;+!Microsoft.Naming#CA1701;+!Microsoft.Naming#CA1703;+!Microsoft.Naming#CA1724;+!Microsoft.Naming#CA1726;+!Microsoft.Performance#CA1809;+!Microsoft.Performance#CA1811;+!Microsoft.Performance#CA1812;+!Microsoft.Performance#CA1813;+!Microsoft.Performance#CA1823;+!Microsoft.Performance#CA1800;+!Microsoft.Performance#CA1805;+!Microsoft.Performance#CA1810;+!Microsoft.Performance#CA1824;+!Microsoft.Performance#CA1822;+!Microsoft.Performance#CA1815;+!Microsoft.Performance#CA1814;+!Microsoft.Performance#CA1819;+!Microsoft.Performance#CA1821;+!Microsoft.Performance#CA1804;+!Microsoft.Performance#CA1820;+!Microsoft.Performance#CA1802;+!Microsoft.Portability#CA1903;+!Microsoft.Portability#CA1901;+!Microsoft.Portability#CA1900;+!Microsoft.Reliability#CA2001;+!Microsoft.Reliability#CA2002;+!Microsoft.Reliability#CA2003;+!Microsoft.Reliability#CA2004;+!Microsoft.Reliability#CA2006;+!Microsoft.Security#CA2116;+!Microsoft.Security#CA2117;+!Microsoft.Security#CA2105;+!Microsoft.Security#CA2115;+!Microsoft.Security#CA2102;+!Microsoft.Security#CA2104;+!Microsoft.Security#CA2122;+!Microsoft.Security#CA2114;+!Microsoft.Security#CA2123;+!Microsoft.Security#CA2111;+!Microsoft.Security#CA2108;+!Microsoft.Security#CA2107;+!Microsoft.Security#CA2103;+!Microsoft.Security#CA2118;+!Microsoft.Security#CA2109;+!Microsoft.Security#CA2119;+!Microsoft.Security#CA2106;+!Microsoft.Security#CA2112;+!Microsoft.Security#CA2120;+!Microsoft.Security#CA2121;+!Microsoft.Security#CA2126;+!Microsoft.Security#CA2124;+!Microsoft.Security#CA2127;+!Microsoft.Security#CA2128;+!Microsoft.Security#CA2129;+!Microsoft.Usage#CA2243;+!Microsoft.Usage#CA2236;+!Microsoft.Usage#CA1816;+!Microsoft.Usage#CA2227;+!Microsoft.Usage#CA2213;+!Microsoft.Usage#CA2216;+!Microsoft.Usage#CA2214;+!Microsoft.Usage#CA2222;+!Microsoft.Usage#CA1806;+!Microsoft.Usage#CA2217;+!Microsoft.Usage#CA2212;+!Microsoft.Usage#CA2219;+!Microsoft.Usage#CA2201;+!Microsoft.Usage#CA2228;+!Microsoft.Usage#CA2221;+!Microsoft.Usage#CA2220;+!Microsoft.Usage#CA2240;+!Microsoft.Usage#CA2229;+!Microsoft.Usage#CA2238;+!Microsoft.Usage#CA2207;+!Microsoft.Usage#CA2208;+!Microsoft.Usage#CA2235;+!Microsoft.Usage#CA2237;+!Microsoft.Usage#CA2232;+!Microsoft.Usage#CA2223;+!Microsoft.Usage#CA2211;+!Microsoft.Usage#CA2233;+!Microsoft.Usage#CA2225;+!Microsoft.Usage#CA2226;+!Microsoft.Usage#CA2231;+!Microsoft.Usage#CA2224;+!Microsoft.Usage#CA2218;+!Microsoft.Usage#CA2234;+!Microsoft.Usage#CA2239;+!Microsoft.Usage#CA2200;+!Microsoft.Usage#CA1801;+!Microsoft.Usage#CA2242;+!Microsoft.Usage#CA2205;+!Microsoft.Usage#CA2230</CodeAnalysisRules>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <TargetName>$(ProjectName)_sud</TargetName>
+    <OutDir>$(SolutionDir)Lib</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+    <GenerateManifest>true</GenerateManifest>
+    <TargetName>$(ProjectName)_u</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='正式版UnicodeRelease|Win32'">
+    <GenerateManifest>true</GenerateManifest>
+    <TargetName>$(ProjectName)_u</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Classflow_UnicodeRelease|Win32'">
+    <GenerateManifest>true</GenerateManifest>
+    <TargetName>$(ProjectName)_u</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MTUnicodeRelease|Win32'">
+    <GenerateManifest>true</GenerateManifest>
+    <TargetName>$(ProjectName)_su</TargetName>
+    <OutDir>$(SolutionDir)Lib</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USRDLL;DIRECTUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <Link>
+      <OutputFile>$(OutDir)\$(TargetName)$(TargetExt)</OutputFile>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <ImportLibrary>..\Lib\$(TargetName).lib</ImportLibrary>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MTUnicodeDebug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USRDLL;DIRECTUI_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <Link>
+      <OutputFile>$(OutDir)\$(TargetName)$(TargetExt)</OutputFile>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <ImportLibrary>..\Lib\$(TargetName).lib</ImportLibrary>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_USRDLL;DIRECTUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)\$(TargetName)$(TargetExt)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <ImportLibrary>..\Lib\$(TargetName).lib</ImportLibrary>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='正式版UnicodeRelease|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_USRDLL;DIRECTUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)\$(TargetName)$(TargetExt)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <ImportLibrary>..\Lib\$(TargetName).lib</ImportLibrary>
+    </Link>
+    <PostBuildEvent>
+      <Command>$(SolutionDir)101PPT\Symbols\pdb.bat "..\$(BinDir)\$(ConfigurationName)\$(TargetName).pdb"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Classflow_UnicodeRelease|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_USRDLL;DIRECTUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)\$(TargetName)$(TargetExt)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <ImportLibrary>..\Lib\$(TargetName).lib</ImportLibrary>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MTUnicodeRelease|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_USRDLL;DIRECTUI_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)\$(TargetName)$(TargetExt)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <ImportLibrary>..\Lib\$(TargetName).lib</ImportLibrary>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\DirectUI.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Action.cpp" />
+    <ClCompile Include="Source\ActionManager.cpp" />
+    <ClCompile Include="Source\activex\ax_host.cpp" />
+    <ClCompile Include="Source\AlphaBlendEx.cpp" />
+    <ClCompile Include="Source\ColorObj.cpp" />
+    <ClCompile Include="Source\CursorObj.cpp" />
+    <ClCompile Include="Source\DataObjectImpl.cpp" />
+    <ClCompile Include="Source\DirectUI.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MTUnicodeDebug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='正式版UnicodeRelease|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Classflow_UnicodeRelease|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MTUnicodeRelease|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\DPI.cpp" />
+    <ClCompile Include="Source\DragDropImpl.cpp" />
+    <ClCompile Include="Source\EngineObj.cpp" />
+    <ClCompile Include="Source\FontObj.cpp" />
+    <ClCompile Include="Source\ImageLib.cpp" />
+    <ClCompile Include="Source\ImageObj.cpp" />
+    <ClCompile Include="Source\Log\easylogging++.cc" />
+    <ClCompile Include="Source\macros.cpp" />
+    <ClCompile Include="Source\RdbParser.cpp" />
+    <ClCompile Include="Source\RenderObj.cpp" />
+    <ClCompile Include="Source\ResObj.cpp" />
+    <ClCompile Include="Source\SSE.cpp" />
+    <ClCompile Include="Source\StyleObj.cpp" />
+    <ClCompile Include="Source\TemplateObj.cpp" />
+    <ClCompile Include="Source\TextHostImpl.cpp" />
+    <ClCompile Include="Source\UIAnimation.cpp" />
+    <ClCompile Include="Source\UIButton.cpp" />
+    <ClCompile Include="Source\UICaret.cpp" />
+    <ClCompile Include="Source\UICheckBox.cpp" />
+    <ClCompile Include="Source\UIComboBox.cpp" />
+    <ClCompile Include="Source\UIComposite.cpp" />
+    <ClCompile Include="Source\UIContainer.cpp" />
+    <ClCompile Include="Source\UIControl.cpp" />
+    <ClCompile Include="Source\UIControlWnd.cpp" />
+    <ClCompile Include="Source\UIDelegate.cpp" />
+    <ClCompile Include="Source\UIDockTool.cpp" />
+    <ClCompile Include="Source\UIEdit.cpp" />
+    <ClCompile Include="Source\UIEdit_AR.cpp" />
+    <ClCompile Include="Source\UIFlash.cpp" />
+    <ClCompile Include="Source\UIHtmlLabel.cpp" />
+    <ClCompile Include="Source\UILabel.cpp" />
+    <ClCompile Include="Source\UILayout.cpp" />
+    <ClCompile Include="Source\UIList.cpp" />
+    <ClCompile Include="Source\UIMenu.cpp" />
+    <ClCompile Include="Source\UIMessageBox.cpp" />
+    <ClCompile Include="Source\UIProgressBar.cpp" />
+    <ClCompile Include="Source\UIRadio.cpp" />
+    <ClCompile Include="Source\UIRichEdit.cpp" />
+    <ClCompile Include="Source\UIScrollBar.cpp" />
+    <ClCompile Include="Source\UISlider.cpp" />
+    <ClCompile Include="Source\UISliderV2.cpp" />
+    <ClCompile Include="Source\UISplitter.cpp" />
+    <ClCompile Include="Source\UITab.cpp" />
+    <ClCompile Include="Source\UITimer.cpp" />
+    <ClCompile Include="Source\UIToolTip.cpp" />
+    <ClCompile Include="Source\UITransition.cpp" />
+    <ClCompile Include="Source\UITree.cpp" />
+    <ClCompile Include="Source\UIView.cpp" />
+    <ClCompile Include="Source\UIWebbrowser.cpp" />
+    <ClCompile Include="Source\UIWindow.cpp" />
+    <ClCompile Include="Source\Utility.cpp" />
+    <ClCompile Include="Source\version.cpp" />
+    <ClCompile Include="Source\ViewAnimation.cpp" />
+    <ClCompile Include="Source\WindowAnimation.cpp" />
+    <ClCompile Include="Source\WindowBase.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Action.h" />
+    <ClInclude Include="include\ActionManager.h" />
+    <ClInclude Include="include\CheckImageHeader.h" />
+    <ClInclude Include="include\ColorObj.h" />
+    <ClInclude Include="include\CursorObj.h" />
+    <ClInclude Include="include\DataObjectImpl.h" />
+    <ClInclude Include="include\DirectUI.h" />
+    <ClInclude Include="include\DPI.h" />
+    <ClInclude Include="include\FontObj.h" />
+    <ClInclude Include="include\Gesture.h" />
+    <ClInclude Include="include\ImageLib.h" />
+    <ClInclude Include="include\ImageObj.h" />
+    <ClInclude Include="include\RenderObj.h" />
+    <ClInclude Include="include\StyleObj.h" />
+    <ClInclude Include="include\TextHostImpl.h" />
+    <ClInclude Include="include\UIAnimation.h" />
+    <ClInclude Include="include\UIButton.h" />
+    <ClInclude Include="include\UICaret.h" />
+    <ClInclude Include="include\UICheckBox.h" />
+    <ClInclude Include="include\UIComboBox.h" />
+    <ClInclude Include="include\UIComposite.h" />
+    <ClInclude Include="include\UIContainer.h" />
+    <ClInclude Include="include\UIControl.h" />
+    <ClInclude Include="include\UIControlWnd.h" />
+    <ClInclude Include="include\UIDef.h" />
+    <ClInclude Include="include\UIDelegate.h" />
+    <ClInclude Include="include\UIDockTool.h" />
+    <ClInclude Include="include\UIEdit.h" />
+    <ClInclude Include="include\UIEdit_AR.h" />
+    <ClInclude Include="include\UIFlash.h" />
+    <ClInclude Include="include\UIHtmlLabel.h" />
+    <ClInclude Include="include\UILabel.h" />
+    <ClInclude Include="include\UILayout.h" />
+    <ClInclude Include="include\UIList.h" />
+    <ClInclude Include="include\UIMenu.h" />
+    <ClInclude Include="include\UIMessageBox.h" />
+    <ClInclude Include="include\UIProgressBar.h" />
+    <ClInclude Include="include\UIRadio.h" />
+    <ClInclude Include="include\UIRichEdit.h" />
+    <ClInclude Include="include\UIScrollBar.h" />
+    <ClInclude Include="include\UISlider.h" />
+    <ClInclude Include="include\UISliderV2.h" />
+    <ClInclude Include="include\UISplitter.h" />
+    <ClInclude Include="include\UITab.h" />
+    <ClInclude Include="include\UITimer.h" />
+    <ClInclude Include="include\UIToolTip.h" />
+    <ClInclude Include="include\UITransition.h" />
+    <ClInclude Include="include\UITree.h" />
+    <ClInclude Include="include\UIView.h" />
+    <ClInclude Include="include\UIWebbrowser.h" />
+    <ClInclude Include="include\UIWindow.h" />
+    <ClInclude Include="include\Utility.h" />
+    <ClInclude Include="include\VersionHelpers.h" />
+    <ClInclude Include="include\ViewAnimation.h" />
+    <ClInclude Include="include\WindowAnimation.h" />
+    <ClInclude Include="include\WindowBase.h" />
+    <ClInclude Include="Source\activex\activex_inner.h" />
+    <ClInclude Include="Source\activex\ax_host.h" />
+    <ClInclude Include="Source\activex\scoped_comptr.h" />
+    <ClInclude Include="Source\activex\scoped_ptr.h" />
+    <ClInclude Include="Source\AlphaBlendEx.h" />
+    <ClInclude Include="Source\DragDropImpl.h" />
+    <ClInclude Include="Source\EngineObj.h" />
+    <ClInclude Include="Source\InterDef.h" />
+    <ClInclude Include="Source\Log\easylogging++.h" />
+    <ClInclude Include="Source\macros.h" />
+    <ClInclude Include="Source\rapidxml\rapidxml.hpp" />
+    <ClInclude Include="Source\rapidxml\rapidxml_utils.hpp" />
+    <ClInclude Include="Source\RdbDef.h" />
+    <ClInclude Include="Source\RdbParser.h" />
+    <ClInclude Include="Source\ResObj.h" />
+    <ClInclude Include="Source\resource.h" />
+    <ClInclude Include="Source\SSE.h" />
+    <ClInclude Include="Source\stdafx.h" />
+    <ClInclude Include="Source\TemplateObj.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\activex\flash10t.tlh" />
+    <None Include="Source\activex\flash10t.tli" />
+    <None Include="Source\DirectUI.def" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

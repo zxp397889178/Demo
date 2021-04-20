@@ -1,0 +1,11 @@
+<skin version="1.0">
+  <Window id="PullDownWnd" minWidth="254" minHeight="57" move="0" resize="0" icon="#ai_logo" windowbigicon="#ai_logo">
+    <Layout id="pulldowm_layout" mode="vertfill" pos="LTRB|0,0,0,0"  style="Picture" bk.image="#icon_pd_bg" inset="7,1,7,11">
+      <!--<Layout pos="LT|8,0,218,46">
+          <AutoSizeButton id="check_user" style="TextClolorButtonStyle" pos="LT|0,0,200,46" bk.image="" text="15959086123" txt.pos="LT|0,-1,206,14" txt.halign="left" over_txt.text="15959086123" over_txt.pos="LT|0,-1,206,14" over_txt.halign="left" push_txt.text="15959086123" push_txt.pos="LT|0,-1,206,14" push_txt.halign="left"/>
+          <Button id="check_del" pos="RT|0,-1,18,18" bk.image="#btn_del" bk.pos="LT|0,0,18,18"/>
+          <Control style="FillColor" color.fillcolor="d2bc9c" pos="LB|0,0,218,1"/>
+        </Layout>-->
+    </Layout>
+  </Window>
+</skin>

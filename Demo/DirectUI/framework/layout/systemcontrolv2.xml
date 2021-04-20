@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<skin version="1.0" load="1" type="style">
+	<Style>
+		<Style id="SliderBarV2">
+			<Image id="bk"  pos="LTRB|0,-1,0,2" image="framework#common\slider_background.png"/>
+			<Image id="fore"  pos="LTRB|0,-1,0,2" image="framework#common\slider_forebackground.png"/>
+			<Image id="thumb"  pos="LT|0,-1,10,10" image="framework#common\slider_thumbradio.png"/>
+		</Style>
+	</Style>
+</skin>

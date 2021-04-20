@@ -1,0 +1,68 @@
+﻿生成启动时间为 2020/3/11 13:51:00。
+     1>项目“E:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelte.vcxproj”在节点 4 上(Build 个目标)。
+     1>ClCompile:
+         H:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\xdelta /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\xdelte.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         H:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\xdelta /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\xdelte.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt XdeltaAPI.cpp XdeltaWrapper.cpp Util.cpp
+         XdeltaAPI.cpp
+         XdeltaWrapper.cpp
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3.h(1189): warning C4244: “=”: 从“const xoff_t”转换到“usize_t”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3.c(5110): warning C4267: “参数”: 从“size_t”转换到“usize_t”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3.c(5112): warning C4267: “=”: 从“size_t”转换到“usize_t”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3.c(5112): warning C4267: “+=”: 从“size_t”转换到“usize_t”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-decode.h(890): warning C4244: “=”: 从“xoff_t”转换到“usize_t”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3.c(2745): warning C4244: “=”: 从“xoff_t”转换到“usize_t”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3.c(3447): warning C4244: “=”: 从“uint32_t”转换到“uint8_t”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3.c(3448): warning C4244: “=”: 从“uint32_t”转换到“uint8_t”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3.c(4244): warning C4244: “=”: 从“xoff_t”转换到“usize_t”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3.c(4313): warning C4244: “=”: 从“xoff_t”转换到“usize_t”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3.c(4319): warning C4244: “=”: 从“xoff_t”转换到“usize_t”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3.c(4707): warning C4244: “=”: 从“__int64”转换到“usize_t”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(559): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 H:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(574): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 H:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(581): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 H:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(582): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 H:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(583): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 H:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(793): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(796): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(2104): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(2110): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(2124): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 H:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(2129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 H:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(2133): warning C4267: “参数”: 从“size_t”转换到“usize_t”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(2163): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(2167): warning C4267: “参数”: 从“size_t”转换到“usize_t”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(2169): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 H:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 参见“strncpy”的声明
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(2171): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 H:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(2429): warning C4244: “=”: 从“xoff_t”转换到“usize_t”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(2430): warning C4244: “=”: 从“xoff_t”转换到“usize_t”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(3176): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 H:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : 参见“getenv”的声明
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(3185): warning C4267: “参数”: 从“size_t”转换到“usize_t”，可能丢失数据
+     1>e:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelta\xdelta3-main.h(3186): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 H:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+         Util.cpp
+     1>Util.cpp(9): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>Util.cpp(12): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>Util.cpp(24): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>Util.cpp(27): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+       Lib:
+         H:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"E:\git\update-pc-101ppt\update-pc-101ppt\updatelib\Lib\x64\xdelte.lib" /NOLOGO /MACHINE:X64 /LTCG x64\Release\stdafx.obj
+         x64\Release\XdeltaAPI.obj
+         x64\Release\XdeltaWrapper.obj
+         x64\Release\Util.obj
+         xdelte.vcxproj -> E:\git\update-pc-101ppt\update-pc-101ppt\updatelib\Lib\x64\xdelte.lib
+     1>已完成生成项目“E:\git\update-pc-101ppt\update-pc-101ppt\updatelib\xdelte\xdelte\xdelte.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.87

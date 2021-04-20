@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<skin version="1.0" load="1" type="string" language="CHN">
+	<String>
+		<String id="EDIT_MENU">Edit菜单</String>
+		<String id="ALL_SELECT">全部选择</String>
+		<String id="SAVE_AS_BTN">另存为...</String>
+		<String id="ADD_TO_FACE">添加到表情</String>
+		<String id="EDIT_SCRAWL">编辑涂鸦</String>
+		<String id="OPEN_DIR_CONTAIN">打开所在文件夹</String>
+		<String id="SELECT_ALL">全选</String>
+		<String id="CUT">剪切</String>
+		<String id="COPY">复制</String>
+		<String id="PASTE">粘贴</String>
+		<String id="DOUBLE_CLICK_SEE_PIC">双击查看原图</String>
+		<String id="LIMIT_INPUT">输入字符错误，请输入</String>
+		<String id="LIMIT_NUMBER">数字</String>
+		<String id="LIMIT_LETTER">字母</String>
+		<String id="LIMIT_CHAR">汉字</String>
+		<String id="LIMIT_BLANK">空格</String>
+		<String id="LIMIT_NOINPUT">请勿输入</String>
+		<String id="SEARCHKEYNOTEMPTY">搜索关键字不能为空</String>
+	</String>
+</skin>
+
+

@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<skin version="1.0" >
+	<Style>
+
+		<Style id="Animation" >
+      <Image id="bk" state="non" pos="8|0,0,0,0"/>
+      <Image id="anim" state="non" pos="8|0,0,0,0"/>
+		</Style>
+
+		<Style id="Button">
+			<Image id="bk" state="all"  image="#button"  imgseq="0,1,2,3,4" pos="8|0,0,0,0"/>
+			<Text  id="txt" state="enable|ckall"  pos="8|0,0,0,0"  halign="center" valign="center"/>
+			<Text  id="txt_disable" state="disable"  pos="8|0,0,0,0"  halign="center" valign="center" textcolor="79848D"/>
+		</Style>
+
+		<Style id="CheckBox">
+			<Image id="bk" state="all"  image="#checkbox"  imgseq="0,1,1,1,0" pos="9|0,-1,15,15"/>
+			<Image id="indefbk" state="all"  image="#checkbox"  imgseq="4,5,5,5,4" pos="9|0,-1,15,15" visible="0"/>
+			<Image id="ckbk" state="ckall"  image="#checkbox"  imgseq="2,3,3,3,2" pos="9|0,-1,15,15" />
+			<Text  id="txt" state="non"  pos="8|18,0,0,0" />
+			<Text  id="txt_disable" state="disable|ckdisable"  pos="8|18,0,0,0" textcolor="7f8c94"/>
+		</Style>
+
+		<Style id="CheckButton">
+			<Image id="bk" state="all"  image="#button"  imgseq="0,1,2,3,0" pos="8|0,0,0,0" />
+			<Image id="ckbk" state="ckall"  image="#button"  imgseq="4,5,6,7,4" pos="8|0,0,0,0" />
+			<Text  id="txt" state="non"  pos="8|0,0,0,0"  halign="center" valign="center"/>
+		</Style>
+
+		<Style id="CheckListItem">
+			<Image id="itemmask" state="non" image="|U|C3|S0,0,3,0|framework#common\list_header.png" pos="8|0,0,0,0" visible="0"/>
+			<Image id="bk" state="all"  image="#checkbox"  imgseq="0,1,1,1,0" pos="9|-1,-1,15,15"/>
+			<Image id="indefbk" state="all"  image="#checkbox"  imgseq="4,5,5,5,4" pos="9|-1,-1,15,15" visible="0"/>
+			<Image id="ckbk" state="ckall"  image="#checkbox"  imgseq="2,3,3,3,2" pos="9|-1,-1,15,15" />
+		</Style>
+
+		<Style id="CheckTreeNode">
+			<Text id="txt" state="non" pos="8|33,0,2,0"/>
+			<Image id="chk" state="all"  image="#checkbox" pos="9|16,-1,15,15" imgseq="0,1,2,3,0" />
+			<Image id="group" state="all" image="#defgroupnode" pos="9|2,-1,12,12" imgseq="0,1,2,3,0"/>
+		</Style>
+
+		<Style id="ControlWnd">
+			<Image id="bk" state="non" pos="8|0,0,0,0"/>
+		</Style>
+
+		<!--2013/1/13新增TXT样式-->
+		<Style id="ComboBox">
+			<Image id="bk" state="all"  image="#edit"  imgseq="0,1,1,0,0" pos="8|0,0,0,0"/>
+			<Image id="right" state="all"  image="#comboxarrow"  imgseq="0,1,2,0,0" pos="5|25,2,2,2"/>
+			<Text  id="txt" state="non" pos="8|5,2,25,2"  endellipsis="1" visible="0"/>
+		</Style>
+
+		<!--2013/1/13新增TXT样式-->
+		<Style id="Edit">
+			<Image id="bk" state="all"  image="#edit"  imgseq="0,1,1,0,0" pos="8|0,0,0,0"/>
+			<Text  id="txt" state="non" pos="8|4,4,4,4"  endellipsis="1" visible="0"/>
+      <Text  id="txt_empty" state="non" pos="8|4,4,4,4"  endellipsis="1" textcolor="808080" visible="0"/>
+		</Style>
+
+		<Style id="FillColor">
+			<Fill  id="color" state="non"  pos="8|0,0,0,0" fillcolor="000000"/>
+			<Text  id="txt" state="non" visible="0"/>
+			<Image id="bk" state="all"  imgseq="0,1,2,3,4" pos="8|0,0,0,0"/>
+		</Style>
+
+		<Style id="IconButton">
+			<Image id="bk" state="all"  image="#button_mask"  imgseq="-1,1,2,3,4" pos="8|0,0,0,0" />
+			<Image id="ckbk" state="ckall"  image="#button_mask"  imgseq="1,1,1,1,1" pos="8|0,0,0,0" />
+			<Image id="icon" state="non"      pos="9|-1,-1,16,16" />
+		</Style>
+
+		<Style id="Label">
+			<Text  id="txt" state="non"  pos="8|0,0,0,0"/>
+		</Style>
+
+		<Style id="Link">
+			<Text  id="txt" state="normal"  pos="8|0,0,0,0" textcolor="00AAFF"/>
+			<Text  id="txt_over" state="over|down" pos="8|0,0,0,0"  font="underline" textcolor="00AAFF"/>
+			<Text  id="txt_disable" state="disable"  pos="8|0,0,0,0" textcolor="79848D"/>
+		</Style>
+
+		<Style id="List">
+			<Image id="bk" state="non" pos="8|0,0,0,0" image="|U|S2,2,2,2|framework#common\list_bkg_border.png" visible="0"/>
+			<Image id="item" state="all" pos="0|0,0,0,0" image="#listitem" visible="0" imgseq="1,0,0,0,0"/>
+			<Image id="itembkg" state="non" pos="0|0,0,0,0" image="#listitembkg"/>
+			<Image id="bound" state="non" pos="0|0,0,0,0" image="#listbound"/>
+		</Style>
+
+		<Style id="ListHeader">
+			<Image id="bk" state="non" pos="8|0,0,0,0" image="|U|framework#common\list_header_bkg.png"/>
+		</Style>
+
+		<Style id="ListHeaderItem">
+			<Image id="bk" state="all"  image="|U|C3|S0,0,3,0|framework#common\list_header.png"  imgseq="0,1,2,0,0" pos="8|0,0,0,0" />
+			<Image id="sort" state="all" image="|U|C2|framework#common\list_headersort.png" imgseq="0,1,-1,-1,-1" pos="5|12,0,3,0"/>
+			<Text id="txt" state="non" pos="8|2,0,12,0" halign="center"/>
+		</Style>
+
+		<Style id="ListItem">
+			<Image id="bk" state="all" imgseq="-1,1,2,-1,-1" pos="8|0,0,0,0"/>
+			<Image id="icon" state="non" pos="8|0,0,0,0" />
+			<Text id="txt" state="non" pos="8|2,0,2,0" vlign="center"/>
+		</Style>
+
+		<Style id="MenuItem">
+			<Image id="bk" state="all" image="|S2,2,2,2|framework#common\menu_sel.png" imgseq="-1,0,0,0,0" pos="8|0,0,0,0"/>
+			<Image id="check" state="non" image="#menucheck" pos="0|0,0,0,0"/>
+			<Text id="txt" state="non" pos="8|27,0,0,0"/>
+			<Text id="key" state="non" pos="5|50,0,10,0" halign="right"/>
+			<Image id="arrow" state="all" image="#menuarrow" imgseq="-1,0,0,0,0" pos="9|10,-1,-5,9"/>
+		</Style>
+
+		<Style id="Picture">
+			<Image id="bk" state="non" pos="8|0,0,0,0"/>
+		</Style>
+
+		<Style id="ProgressBar">
+			<Image id="bk" state="non" image="|S2,2,2,2|framework#common\progress_hbackground.png"/>
+			<Image id="forebk" state="non" image="|S2,2,2,2|framework#common\progress_hforeground.png"/>
+		</Style>
+
+		<Style id="VProgressBar">
+			<Image id="bk" state="non" image="|S2,2,2,2|framework#common\progress_vbackground.png"/>
+			<Image id="forebk" state="non" image="|S2,2,2,2|framework#common\progress_vforeground.png"/>
+		</Style>
+
+		<Style id="Radio">
+			<Image id="bk" state="all"  image="#radio"  imgseq="0,1,1,1,0" pos="9|0,-1,15,15" />
+			<Image id="ckbk" state="ckall"  image="#radio"  imgseq="2,3,3,3,2" pos="9|0,-1,15,15" />
+			<Text  id="txt" state="non"  pos="8|19,0,0,0" />
+		</Style>
+
+    <Style id="ScrollBar">
+      <Image id="bk" state="all" image="|S2,3,2,3|main#common\vscroll_background.png" pos="8|0,0,0,0"/>
+      <Image id="top" state="all" image="|C3|framework#common\scroll_up.png" imgseq="0,1,2,1,0" pos="4|0,0,0,0"/>
+      <Image id="bottom" state="all" image="|C3|framework#common\scroll_down.png" imgseq="0,1,2,1,0" pos="0|0,0,0,0"/>
+      <Image id="thumb" state="all" image="|S2,3,2,3|main#common\vscroll_thumb.png" pos="0|0,0,0,0"/>
+    </Style>
+
+		<Style id="HScrollBar">
+			<Image id="bk" state="all" image="|C2|S6,4,6,4|framework#common\scroll_hback.png" imgseq="0,1,1,1,1" pos="8|0,0,0,0"/>
+			<Image id="left" state="all" image="|C3|framework#common\scroll_left.png" imgseq="0,1,2,1,0" pos="7|0,0,0,0"/>
+			<Image id="right" state="all" image="|C3|framework#common\scroll_right.png" imgseq="0,1,2,1,0" pos="0|0,0,0,0"/>
+			<Image id="thumb" state="all" image="|C3|S6,4,6,4|framework#common\scroll_hthumb.png" imgseq="0,1,2,2,0" pos="0|0,0,0,0"/>
+		</Style>
+
+		<Style id="SliderBar">
+			<Image id="bk" state="non" image="framework#common\slider_background.png"/>
+			<Image id="forebk" state="non" image="framework#common\slider_foreground.png"/>
+			<Image id="posbk" state="non" image="framework#common\slider_forebackground.png"/>
+			<Image id="thumb" state="non" image="framework#common\slider_thumbradio.png"/>
+		</Style>
+
+		<Style id="SpliterButton">
+			<Image id="leftmask" state="all"  image="#menuleftmask"  imgseq="-1,0,1,2,-1" pos="8|0,0,11,0" />
+			<Image id="rightmask" state="all"  image="#menurightmask"  imgseq="-1,0,1,2,-1" pos="5|11,0,0,0" />
+			<!-- Image id="bk" state="disable|ckdisable"  image="#button_mask"  imgseq="-1,-1,-1,-1,4" pos="8|0,0,0,0"/ -->
+			<Image id="icon" state="non"      pos="8|0,0,11,0" />
+			<Text  id="txt" state="non"     pos="8|0,0,11,0"  halign="center" valign="center"/>
+			<Image id="arrow" state="non"      pos="9|11,-1,-11,11" image="#arrow"/>
+		</Style>
+
+		<Style id="TabButton">
+			<Image id="bk" state="all|cknormal|ckover|ckdown|ckfocus"  image="#tabbutton"  imgseq="0,1,2,-1,-1" pos="8|0,0,0,0" />
+			<Image id="icon" state="non" imgseq="0,1,2,3,0" pos="9|-1,-1,20,20"/>
+			<Text  id="txt" state="non"  pos="8|5,0,5,0"  halign="center" valign="center" endellipsis="1"/>
+			<Image id="close" state="all" pos="9|14,-1,-11,11" image="|C3|framework#common\tab_btn_close.png" imgseq="0,1,2,0,0" visible="0"/>
+			<Text  id="txt_disable" state="disable|ckdisable"  pos="8|5,0,5,0"  halign="center" valign="center" endellipsis="1" textcolor="79848D"/>
+		</Style>
+
+		<Style id="TabCtrl">
+			<Image id="bk" state="non" pos="8|0,0,0,0"/>
+		</Style>
+
+		<Style id="TabHeader">
+			<Image id="bk" state="non" pos="8|0,0,0,0" image="#tabbkg"/>
+		</Style>
+
+		<Style id="Table">
+			<Image id="bk" state="non" pos="8|0,0,0,0" image="|U|S2,2,2,2|framework#common\list_bkg_border.png" visible="0"/>
+			<Image id="item" state="non" pos="0|0,0,0,0" image="#listitem"/>
+			<Image id="itembkg" state="non" pos="0|0,0,0,0" image="#listitembkg"/>
+		</Style>
+
+		<Style id="TableItem">
+			<Image id="bk" state="all" imgseq="-1,1,2,-1,-1" pos="8|0,0,0,0"/>
+			<Image id="icon" state="non" pos="8|0,0,0,0" />
+			<Text id="txt" state="non" pos="8|2,0,2,0" vlign="center"/>
+		</Style>
+
+		<Style id="TreeNode">
+			<Image id="icon" state="all|ckall" pos="9|2,-1,12,12" image="#defgroupnode" imgseq="0,1,2,3,0"/>
+			<Text id="txt" state="non" pos="8|16,0,2,0" endellipsis="1"/>
+		</Style>
+
+		<Style id="Tree">
+			<Image id="bk" state="non" pos="8|0,0,0,0" image="|U|S2,2,2,2|framework#common\list_bkg_border.png" visible="0"/>
+			<Image id="item" state="all" pos="0|0,0,0,0" image="#listitem" visible="0" imgseq="1,0,0,0,0"/>
+			<Image id="itembkg" state="non" pos="0|0,0,0,0" image="#listitembkg"/>
+		</Style>
+
+		<Style id="ToolList">
+			<Image id="bk" state="non" pos="8|0,0,0,0" image="|U|S2,2,2,2|framework#common\list_bkg_border.png" visible="0"/>
+			<Image id="item" state="non" pos="0|0,0,0,0" image="#listitem"/>
+			<Image id="itembkg" state="non" pos="0|0,0,0,0" image="#listitembkg"/>
+		</Style>
+
+		<Style id="ToolItem">
+			<Image id="bk" state="all" imgseq="0,1,2,2,-1"  image="|U|C3|S3,3,3,3|framework#common\main_tab.png" pos="8|0,0,0,0"/>
+			<Image id="icon" state="all" pos="9|-1,-1,20,20" imgseq="0,1,2,2,-1" />
+			<Text id="txt" state="non" pos="8|2,0,2,0" valign="center" halign="center" visible="0"/>
+		</Style>
+
+		<Style id="Transition">
+		  <Image id="out" state="non" pos="8|0,0,0,0" visible="0"/>
+		  <Image id="in" state="non" pos="8|0,0,0,0" visible="0"/>
+		</Style>
+	
+		<Style id="window">
+			<Label   id="title" pos="4|29,7,100,25"  txt.font="bold" txt.fonteffect="1" txt.endellipsis="1"/>
+			<Control id="icon" style="Picture" pos="0|7,7,23,23"  bk.image="#app_icon"/>
+			<Control id="windowbigicon" style="Picture" bk.image="#app_icon32" visible="0"/>
+			<Layout id="sysbutton" pos="1|96, 0, 1, 20" mode="righttoleft" HScroll="0" VScroll="0">
+				<Button id="minimize" pos="0|0,0,28,20" bk.image="#minimizebox"/>
+				<Button id="maximize" style="CheckButton" pos="0|0,0,28,20" bk.image="#maximizebox" ckbk.image="#maximizebox" visible="0"/>
+				<Button id="close" pos="0|0,0,39,20" bk.image="#closebox"/>
+			</Layout>
+		</Style>
+
+		<Style id="window_notitle">
+			<Control id="icon" style="Picture" pos="0|0,0,0,0" bk.image="#app_icon" visible="0"/>
+			<Control id="windowbigicon" style="Picture" pos="0|0,0,0,0" bk.image="#app_icon32" visible="0"/>
+			<Layout id="sysbutton" pos="1|96, 0, 1, 20" mode="righttoleft">
+				<Button id="minimize" pos="0|0,0,28,20" bk.image="#minimizebox"/>
+				<Button id="maximize" style="CheckButton" pos="0|0,0,28,20" bk.image="#maximizebox" ckbk.image="#maximizebox" visible="0"/>
+				<Button id="close" pos="0|0,0,39,20" bk.image="#closebox"/>
+			</Layout>
+		</Style>
+
+		<Style id="window_background">
+			<Fill  id="fill" state="all"  pos="8|0,0,0,0" fillcolor="000000" visible="0"/>
+			<Image id="bk"   state="all"    pos="8|0,0,0,0" paintmode="normal"/>
+		</Style>
+	</Style>
+</skin>
