@@ -2,17 +2,27 @@
     <Window id="ShowTextWindow" minWidth="300" minHeight="600" move="1" resize="0" title="" store="0">
       <Layout pos="LTRB|0,0,0,0" style="BkWindow">
 
-        <Button id="btn_servce" pos="LT|10,10,50,36" text="我是服务端" />
-        <Button id="btn_client" pos="LT|80,10,50,36" text="我是客户端" />
         <Button id="btn_close" pos="RT|10,10,36,36"  bk.image="#bk_close36" bk.imgseq="0,1,2,1,1" bk.paintmode="center"/>
-        <Layout id="main_text" mode="toptobottom" pos="LTRB|28,50,28,0">       
+        <Layout id="main_text" mode="vertfill" pos="LTRB|28,50,28,10" spaceY="20">
 
+          <Layout pos="LTRT|0,0,0,100" style="FillColor" color.fillcolor="FFFFD0">
+            <RichEdit id="edit_text" style="Feedback_Edit2" pos="LTRB|0,0,0,0" enableimage="0" maxchar="800" />
+          </Layout>
+          
+          <Layout id="main_text" mode="toptobottom" pos="LTRB|0,50,0,0" style="FillColor" color.fillcolor="FFFFD0">
+            
+          </Layout>
+          
         </Layout>
         
       </Layout>
   </Window>
   
   <Style>
+    
+    <Style id="Feedback_Edit2">
+      <Rect  id="bk" state="non" pos="8|0,0,0,0"  borderwidth="1" bordercolor="#L04"/>
+    </Style>
     
   </Style>
 

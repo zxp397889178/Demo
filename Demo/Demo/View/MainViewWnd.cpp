@@ -11,6 +11,10 @@
 #include <WinSock2.h>
 #include <winsock.h>
 #include <thread>
+#include "ShowText/ShowTextWnd.h"
+#include <shellapi.h>
+
+//#include "httpServer/http_server.h"
 
 CMainViewWnd::CMainViewWnd()
 {
@@ -428,6 +432,7 @@ bool CMainViewWnd::OnBtnfun2(TNotifyUI* msg)
 	return true;
 }
 
+#include <numeric>
 bool CMainViewWnd::OnBtnfun3(TNotifyUI* msg)
 {
 	logical_and<int> la;		//逻辑与
@@ -447,6 +452,134 @@ bool CMainViewWnd::OnBtnfun3(TNotifyUI* msg)
 
 	//二分查找法，必须有序才可以,如果是无序序列，则结果未知
 	binary_search(vec1.begin(), vec1.end(), true);
+
+	//随机数种子
+	srand((unsigned int)time(NULL));
+	random_shuffle(vec1.begin(), vec1.end()); //打乱顺序
+
+	reverse(vec1.begin(), vec1.end());  //反转容器数据
+
+
+
+	vector<int> v;
+	vector<int> vec;
+	for (int i = 0; i <= 100; i++)
+	{
+		v.push_back(i);
+		vec.push_back(i + 5);
+	}
+
+	//包含头文件 numeric   参数3是起始累加值
+	int total = accumulate(v.begin(), v.end(), 0);   //累加
+	fill(v.begin(), v.end(), 100);   //填充数据
+
+
+	//常用集合算法
+	vector<int> vv;
+
+	//set_intersection 取交集
+	vv.resize(min(v.size(), vec.size()));
+	vector<int>::iterator itEnd = set_intersection(v.begin(), v.end(), vec.begin(), vec.end(), vv.begin());
+
+	//set_union 取并集
+	vv.resize(v.size() + vec.size());
+	itEnd = set_union(v.begin(), v.end(), vec.begin(), vec.end(), vv.begin());
+
+	//set_difference 取差集
+	vv.resize(max(v.size(), vec.size()));
+	itEnd = set_difference(v.begin(), v.end(), vec.begin(), vec.end(), vv.begin());
+
+	return true;
+}
+
+bool CMainViewWnd::OnBtntest(TNotifyUI* msg)
+{
+// 	CShowTextWnd* pShowTextWnd = new CShowTextWnd();
+// 	if (pShowTextWnd)
+// 	{
+// 		pShowTextWnd->CreateWnd(GetHWND());
+// 		pShowTextWnd->CenterWindow();
+// 		pShowTextWnd->ShowWindow();
+// 	}
+
+	NOTIFYICONDATA NotifyIconData;
+	memset(&NotifyIconData, 0, sizeof(NotifyIconData));
+
+	NotifyIconData.cbSize = sizeof(NOTIFYICONDATA);
+	NotifyIconData.hIcon = GetUIRes()->LoadImage(_T("#bk_close36"), false, UIIAMGE_HICON)->GetHIcon();
+	NotifyIconData.hWnd = GetHWND();
+	NotifyIconData.uFlags = NIF_ICON | NIF_TIP | NIF_MESSAGE;
+
+	tstring wstrTip = _T("101教育PPT");
+	_stprintf_s(NotifyIconData.szTip, _T("%s"), wstrTip.c_str());
+
+	NotifyIconData.uID = 1;
+	NotifyIconData.uCallbackMessage = 1223;
+
+	Shell_NotifyIcon(NIM_ADD, &NotifyIconData);
+
+	return true;
+}
+
+// bool Fun1Handler(std::string body, std::string query_string, mg_connection *c, OnRspCallback reply_callback)
+// {
+// 	reply_callback(c, "200 OK", "success");
+// 
+// 	return true;
+// }
+// 
+// bool Fun2Handler(std::string body, std::string query_string, mg_connection *c, OnRspCallback reply_callback)
+// {
+// 	char n1[100], n2[100];
+// 	char res[100];
+// 	double result;
+// 
+// 	/* Get form variables */
+// 	/* string: n1=x&n2=y  */
+// 	if (!body.empty()){
+// 		struct mg_str http_body;
+// 		http_body.p = body.c_str();
+// 		http_body.len = body.length();
+// 		mg_get_http_var(&http_body, "n1", n1, sizeof(n1));
+// 		mg_get_http_var(&http_body, "n2", n2, sizeof(n2));
+// 
+// 	}
+// 	else if (!query_string.empty()){
+// 		struct mg_str http_body;
+// 		http_body.p = query_string.c_str();
+// 		http_body.len = query_string.length();
+// 		mg_get_http_var(&http_body, "n1", n1, sizeof(n1));
+// 		mg_get_http_var(&http_body, "n2", n2, sizeof(n2));
+// 	}
+// 
+// 	/* Compute the result and send it back as a JSON object */
+// 	result = strtod(n1, NULL) + strtod(n2, NULL);
+// 	sprintf(res, "%0.5f", result);
+// 	reply_callback(c, "200 OK", res);
+// 
+// 	return true;
+// }
+
+bool CMainViewWnd::OnBtntestHttpServer(TNotifyUI* msg)
+{
+	// 启动http server
+// 	string strPort = "80";
+// 	auto http_server = std::make_shared<HttpServer>();
+// 	http_server->Init(strPort);
+// 	// add handler
+// 	http_server->AddHandler("/api/fun1", Fun1Handler);
+// 	http_server->AddHandler("/api/sum", Fun2Handler);
+// 	http_server->Start();
+
+	NOTIFYICONDATA NotifyIconData;
+	memset(&NotifyIconData, 0, sizeof(NotifyIconData));
+
+	NotifyIconData.cbSize = sizeof(NOTIFYICONDATA);
+	NotifyIconData.hWnd = GetHWND();
+	NotifyIconData.uID = 1;
+	NotifyIconData.uCallbackMessage = 1223;
+
+	Shell_NotifyIcon(NIM_DELETE, &NotifyIconData);
 
 	return true;
 }

@@ -19,6 +19,8 @@ public:
 		UI_EVENT_ID_HANDLER(UINOTIFY_CLICK, _T("btn_fun1"), OnBtnfun1);
 		UI_EVENT_ID_HANDLER(UINOTIFY_CLICK, _T("btn_fun2"), OnBtnfun2);
 		UI_EVENT_ID_HANDLER(UINOTIFY_CLICK, _T("btn_fun3"), OnBtnfun3);
+		UI_EVENT_ID_HANDLER(UINOTIFY_CLICK, _T("btn_testHttpServer"), OnBtntestHttpServer);
+		UI_EVENT_ID_HANDLER(UINOTIFY_CLICK, _T("btn_test"), OnBtntest);
 	UIEND_MSG_MAP
 
 public:
@@ -34,8 +36,10 @@ private:
 	bool				OnBtnSocketClient(TNotifyUI* msg);
 	bool				OnBtnUDPServer(TNotifyUI* msg);
 	bool				OnBtnUDPClient(TNotifyUI* msg);
-
 	bool				OnBtnfun1(TNotifyUI* msg);
 	bool				OnBtnfun2(TNotifyUI* msg);
 	bool				OnBtnfun3(TNotifyUI* msg);
+	bool				OnBtntestHttpServer(TNotifyUI* msg);
+
+	bool				OnBtntest(TNotifyUI* msg);
 };

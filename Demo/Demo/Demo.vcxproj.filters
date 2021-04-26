@@ -43,6 +43,12 @@
     <Filter Include="include">
       <UniqueIdentifier>{5cfca054-4fb2-4d1c-a9d7-6545bc6e606c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="httpServer">
+      <UniqueIdentifier>{cc498290-eb10-42c9-af8f-41193a07ccd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httpServer\common">
+      <UniqueIdentifier>{a18cd196-a70b-4e37-aaa1-de8f9c4974be}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />

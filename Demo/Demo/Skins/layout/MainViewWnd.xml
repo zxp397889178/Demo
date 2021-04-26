@@ -49,6 +49,16 @@
                     over_txt.font="font18" over_txt.color="#Color_White"
                     push_txt.font="font18" push_txt.color="#Color_White"/>
 
+        <Button id="btn_testHttpServer" pos="LT|0,0,266,40" style="ImageButton" bk.image="#btn_uc_biz" bk.imgseq="0,1,2,1,1" bk.paintmode="center"
+                text="测试http请求" txt.font="font18" txt.color="#Color_White"
+                    over_txt.font="font18" over_txt.color="#Color_White"
+                    push_txt.font="font18" push_txt.color="#Color_White"/>
+
+        <Button id="btn_test" pos="LT|0,0,266,40" style="ImageButton" bk.image="#btn_uc_biz" bk.imgseq="0,1,2,1,1" bk.paintmode="center"
+                text="测试" txt.font="font18" txt.color="#Color_White"
+                    over_txt.font="font18" over_txt.color="#Color_White"
+                    push_txt.font="font18" push_txt.color="#Color_White"/>
+
       </Layout>
         
     </Layout>
