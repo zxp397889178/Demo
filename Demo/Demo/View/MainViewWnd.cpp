@@ -560,6 +560,8 @@ bool CMainViewWnd::OnBtntest(TNotifyUI* msg)
 // 	return true;
 // }
 
+
+
 bool CMainViewWnd::OnBtntestHttpServer(TNotifyUI* msg)
 {
 	// Æô¶¯http server
@@ -571,15 +573,44 @@ bool CMainViewWnd::OnBtntestHttpServer(TNotifyUI* msg)
 // 	http_server->AddHandler("/api/sum", Fun2Handler);
 // 	http_server->Start();
 
-	NOTIFYICONDATA NotifyIconData;
-	memset(&NotifyIconData, 0, sizeof(NotifyIconData));
+// 	NOTIFYICONDATA NotifyIconData;
+// 	memset(&NotifyIconData, 0, sizeof(NotifyIconData));
+// 
+// 	NotifyIconData.cbSize = sizeof(NOTIFYICONDATA);
+// 	NotifyIconData.hWnd = GetHWND();
+// 	NotifyIconData.uID = 1;
+// 	NotifyIconData.uCallbackMessage = 1223;
+// 
+// 	Shell_NotifyIcon(NIM_DELETE, &NotifyIconData);
 
-	NotifyIconData.cbSize = sizeof(NOTIFYICONDATA);
-	NotifyIconData.hWnd = GetHWND();
-	NotifyIconData.uID = 1;
-	NotifyIconData.uCallbackMessage = 1223;
+// 	Derive cc;
+// 	cc.func();
+// 	Base *pObjA = &cc;
+// 	pObjA->func(0);
+// 	cc.func(0);
+// 	return 0;
 
-	Shell_NotifyIcon(NIM_DELETE, &NotifyIconData);
+	int a[5][10];
+	int val = 1;
+	for (int row = 0; row < 5; ++row)
+	{
+		for (int col = 0; col < 10; ++col)
+		{
+			a[row][col] = val++;
+		}
+	}
+
+	int *p1 = &a[0][0];
+
+	char arr[20];
+
+	sprintf(arr, "%d", *(p1 + 13));
+	
+	int b = *p1 + 13;
+	int* c = p1 + 13;
+
+
+
 
 	return true;
 }
