@@ -1,0 +1,28 @@
+<? xml version="1.0" encoding="utf8" ?>
+<main>
+    <shunt>
+        <item type="baidu" name="paycenter" desc="支付中心" url="http://121.43.148.148:3311/api/baidu/callback"/>
+        <item type="baidu" name="crazcrazyfishyfish3D" desc="疯狂的捕鱼3D-趣玩支付2.0" url="http://pay.qw.quwangame.com:18080/pay/5/110032/result.aspx"/>
+        <item type="baidu" name="crazyfish" desc="疯狂的捕鱼-趣玩支付2.0" url="http://pay.qw.quwangame.com:18080/baidugameresult.aspx"/>
+        <item type="baidu" name="superfish" desc="超级捕鱼-趣玩支付2.0" url="http://pay.qw.quwangame.com:18080/pay/5/4002/result.aspx"/>
+
+        <item type="quickgame" name="paycenter" desc="支付中心" url="http://121.43.148.148:3311/api/quickgame/callback"/>
+        <item type="quickgame" name="crazcrazyfishyfish3D" desc="疯狂的捕鱼3D-趣玩支付2.0" url="http://www.baidu.com"/>
+
+        <item type="quicksdk" name="paycenter" desc="支付中心" url="http://121.43.148.148:3311/api/quicksdk/callback"/>
+        <item type="quicksdk" name="crazcrazyfishyfish3D" desc="疯狂的捕鱼3D-趣玩支付2.0" url="http://www.baidu.com"/>
+
+        <item type="yyb" name="paycenter" desc="支付中心" url="http://121.43.148.148:3311/api/tdpay/callback"/>
+        <item type="yyb" name="crazcrazyfishyfish3D" desc="疯狂的捕鱼3D-趣玩支付2.0" url="http://10.104.53.60:9001/pay/56/110042/result.aspx"/>
+        <item type="yyb" name="tiantianwanfish" desc="天天玩捕鱼-趣玩支付2.0" url="http://10.104.53.60:9001/pay/56/9212/result.aspx"/>
+
+        <item type="youyi" name="paycenter" desc="支付中心" url="http://121.43.148.148:3311/api/youyipay/callback"/>
+        <item type="youyi" name="crazcrazyfishyfish3D" desc="疯狂的捕鱼3D-趣玩支付2.0" url="http://www.baidu.com"/>
+
+        <item type="shunyou" name="paycenter" desc="支付中心" url="http://121.43.148.148:3311/api/shunyou/callback"/>
+        <item type="shunyou" name="crazcrazyfishyfish3D" desc="疯狂的捕鱼3D-趣玩支付2.0" url="http://www.baidu.com"/>
+
+        <item type="game8u" name="paycenter" desc="支付中心" url="http://121.43.148.148:3311/api/game8upay/callback"/>
+        <item type="game8u" name="crazcrazyfishyfish3D" desc="疯狂的捕鱼3D-趣玩支付2.0" url="http://www.baidu.com"/>
+    </shunt>
+</main>
