@@ -30,5 +30,12 @@
 *.exe
 *.out
 *.app
+*.log
+*.tlog
+*.pdb
+*.idb
+*.res
+*.sdf
 Bin
 Temp
+*/Debug
